@@ -20,7 +20,7 @@ public class Solution {
                     odd += word[i];
 
             }
-            System.out.println(even + " " + odd);
+            System.out.println(even + " " + odd)
         }
 
     }
