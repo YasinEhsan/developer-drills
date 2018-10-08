@@ -21,7 +21,7 @@
 
 ---
 ## general git notes
-- git checkout -- *file name* (disgard repo file changes)
+- git checkout -- *file name* (disregard repo file changes)
 
 ## npm running server
 1. npm i (downloads new pack)
