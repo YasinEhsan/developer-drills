@@ -20,34 +20,32 @@
 
 
 ---
-## general git notes
-- git checkout -- *file name* (disgard repo file changes)
-
-## npm running server
-1. npm i (downloads new pack)
-2. npm run dev
-3. copy http link localhost
-4. ctrl C
-
 ## clone 101
-1. git clone (paste ssh)
-2. git commit -a -m "added MongoDB"
-3. git push origin master
+- git clone (paste ssh)
+- git add . 
+- git commit 
+- git push 
 
-## pushing
-1. git status (op)
-2. git add .
-3. git status (op)
-4. git commit -m *"Wrote name"*
-5. git push origin master
+## merge conflicts locally
+- git fetch 
+- git add .
+- git commit 
+- git pull (resolve confilcts here)
+- git push
+
+## merge conflicts with other branch
+- git branch
+- git checkout (update branch name i.e. master)
+- git merge (current branch name?)
+- git push
+
 
 ## branching (detached head)
 1. git branch -a
 2. git checkout *branch name*
 3. git add .
 4. git commit -m ""
-5. git push **OR...**
--  git push upstream *branch name*
+5. git push **OR...** git push upstream *branch name
 
 ## general
 1. git status
@@ -59,6 +57,12 @@
 - three backtics for code
 - blockqoute with arrow
 - emphasize with bold + cap
+
+## npm running server
+1. npm i (downloads new pack)
+2. npm run dev
+3. copy http link localhost
+4. ctrl C
 
 ## Terminal 101
 1. mv old-name new-name (Rename)
