@@ -63,6 +63,7 @@
 2. npm run dev
 3. copy http link localhost
 4. ctrl C
+5. OR Python -m SimpleHTTPServer 8000
 
 ## Terminal 101
 1. mv old-name new-name (Rename)
