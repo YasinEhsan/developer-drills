@@ -4,9 +4,8 @@
 
 - [Notes](#notes)
 	- [clone 101](#clone-101)
-	- [merge conflicts locally](#merge-conflicts-locally)
-	- [merge conflicts with other branch](#merge-conflicts-with-other-branch)
-	- [branching (detached head)](#branching-detached-head)
+	- [merge](#merge)
+	- [branch](#branch)
 	- [general](#general)
 	- [Markdown Hacks](#markdown-hacks)
 	- [npm running server](#npm-running-server)
@@ -22,30 +21,20 @@
 ---
 ## clone 101
 - git clone (paste ssh)
-- git add .
-- git commit
+- git commit -am"Did this"
 - git push
 
-## merge conflicts locally
-- git fetch
-- git add .
-- git commit
-- git pull (resolve confilcts here)
+## merge
+- git checkout master
+- git merge otherBranch
 - git push
 
-## merge conflicts with other branch
-- git branch
-- git checkout (update branch name i.e. master)
-- git merge (current branch name?)
-- git push
+## branch
+- git checkout branch that is behind
+- git pull branch that is ahead
+- git push (now up to date)
 
 
-## branching (detached head)
-1. git branch -a
-2. git checkout *branch name*
-3. git add .
-4. git commit -m ""
-5. git push **OR...** git push upstream *branch name
 
 ## general
 1. git status
