@@ -2,6 +2,8 @@
 //Intrv prep
 #include <iostream>
 #include <vector> 
+#include <iterator>
+#include <algorithm>
 using namespace std; 
 
 /*
@@ -143,3 +145,6 @@ void vectorMethod(int given){
   //   cout<<"\n";
   // }
 }
+
+
+
