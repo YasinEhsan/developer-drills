@@ -2,9 +2,9 @@
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [[Leetcode workouts](https://leetcode.com/problemset/all)](#leetcode-workoutshttpsleetcodecomproblemsetall)
+### **Contents**
 	- [Takeaways](#takeaways)
-	- [[Easy](https://leetcode.com/problemset/all/?difficulty=Easy)](#easyhttpsleetcodecomproblemsetalldifficultyeasy)
+	- [Easy](#easy)
 	- [Med](#med)
 	- [Hard](#hard)
 
