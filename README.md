@@ -1,8 +1,15 @@
 # Coding_Challenges
-Reference to online and in-person coding exercises from mock interview questions to syntax nuances.
+A personal reference to coding exercises, syntax nuances, and best practices.
+
+
+
+
+
+
+
 
 ## License
 
-© 2018 Yasin Ehsan
+© Yasin Ehsan
 
 Licensed under the [Apache License](LICENSE).

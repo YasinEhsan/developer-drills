@@ -43,8 +43,8 @@
 
 ## Markdown Hacks
 - Links types: Section, project file, href
-- three backtics for code
-- blockqoute with arrow
+- three bracktics for code
+- block quote with arrow
 - emphasize with bold + cap
 
 ## npm running server
