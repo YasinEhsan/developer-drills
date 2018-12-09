@@ -34,14 +34,12 @@ class Main {
   }
 
   private static int[] sort(int[] given, int len){
-    //srts least to greatest
+    //sorts least to greatest
     int[] list = given;
-    for(int i = 0; i < len; i++){
-      for(int j = i +1; j < len; j++){
+    for(int i = 0; i < len; i++)
+      for(int j = i +1; j < len; j++)
         if(list[i] > list[j])
           swap(list,i,j);
-      }
-    }
     return list;
   }
 
