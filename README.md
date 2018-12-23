@@ -2,7 +2,7 @@
 A personal reference to coding exercises, syntax nuances, and best practices.
 
 # Contents
-  - [Repo Descriptions](Description)
+  - [Repo Descriptions](## Description)
   - [General Takeaways](Takeaways)
 
 ## Description
