@@ -1,6 +1,6 @@
 # Contents
-  - [Takeaways](Takeaways)
-  - [Naming Convention](Naming_convention)
+- [Takeaways](#Takeaways)
+- [Naming Convention](#Naming_convention)
 
 
 ## Takeaways
