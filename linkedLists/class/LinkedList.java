@@ -1,5 +1,3 @@
-package linkedList;
-
 import java.util.Scanner;
 
 import listNode.Node;
