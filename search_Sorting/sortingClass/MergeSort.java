@@ -1,5 +1,3 @@
-package sorting;
-
 public class MergeSort<K extends Comparable<K>> extends Sort<K> {
 
    public MergeSort(K[] x) {
