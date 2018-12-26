@@ -18,3 +18,10 @@
 
 
 ## Takeaways
+- 'a' begins 97 ascii. 'z' ends at 122. 'A' begins 65. 'Z' ends 90. String to ascii...
+```Java
+int ascii = (int) store[j]; // Where store[i] is char[]
+```
+
+
+
