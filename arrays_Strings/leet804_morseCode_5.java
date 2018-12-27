@@ -1,13 +1,17 @@
 // import java.io.*;
+import java.util.*;
 public class leet804_morseCode_5{
     public static void main( String[] args){
         String[] words = {"gin", "zen", "gig", "msg"};
-        String[] encoded = sol(words);
-        for(String e: encoded)
-            System.out.println(e);
+        // String[] encoded = sol(words);
+        // for(String e: encoded)
+        //     System.out.println(e);
+        System.out.println(sol(words));
+
+
 
     }
-    public static String[] sol(String[] words) {
+    public static int sol(String[] words) {
         String[] decode = {".-","-...","-.-.","-..",".","..-.",
         "--.","....","..",".---","-.-",".-..","--","-.","---",
         ".--.","--.-",".-.","...","-","..-","...-",".--","-..-",
@@ -25,12 +29,13 @@ public class leet804_morseCode_5{
         }
 
         int count = 0; 
-
-        for(int i = 0; i<encode.length-1; ++i)
-            if(!encode[i].equals(encode[i+1]))
+        HashSet<String> set = new HashSet<>();
+        for(int i = 0; i<encode.length; ++i)
+            if(!set.contains(encode[i])){
+                set.add(encode[i]);
                 count++;
-
-        return encode;
+            }
+        return count;
         
     }
     
