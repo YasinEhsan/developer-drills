@@ -1,6 +1,6 @@
 import java.util.*; // i.e Arrays.sort
 import java.io.*; 
-public class {
+public class test{
      /*QUESTION
       */
     public static void main( String[] args){
