@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*; 
 class allStar{
     public static void main(String[] roar){
 
@@ -51,8 +52,8 @@ class allStar{
             }
         return count;
     }
-
-
-
-
+    public static void readStr(String s){
+        Scanner read = new Scanner(System.in);
+        String current = read.
+    }
 }
