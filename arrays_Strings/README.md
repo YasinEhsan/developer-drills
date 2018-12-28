@@ -20,6 +20,11 @@
 ```Java
 int ascii = (int) store[j]; // Where store[i] is char[]
 ```
+- Convert from int to string: 
+```Java
+Integer.toString(int)
+```
+
 
 
 
