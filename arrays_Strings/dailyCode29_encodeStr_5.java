@@ -12,7 +12,8 @@ public class dailyCode29_encodeStr_5 {
     // solely of alphabetic characters. You can assume the string to be 
     // decoded is valid.
     public static void main( String[] args){
-        System.out.println(sol("AAAABBBCCDAA"));
+        System.out.print("hdbc");
+        System.out.println(sol("AAAABBBCCDAAA"));
     }
     
     public static String sol(String given){
@@ -23,30 +24,23 @@ public class dailyCode29_encodeStr_5 {
             - appended count and vari to new string 
         */
 
-        String encode = "";
-        int j = 0;
+        String encode = "", store = given + " ";
+        int j = 0, count = 0;
 
-        while(j <= given.length()){
-            int count = 0;
-            String current = given.substring(j,j+1);
-            String next = given.substring(count,count+1); 
+        while(j <= given.length() - count){
+            String current = store.substring(j,j+1);
+            String next = store.substring(j+ count, j + count+1); 
 
             if(!current.equals(next)){
-                j++;
+                j+= count;
                 encode += Integer.toString(count);
                 encode += current;
                 count = 0;
-                System.out.println("if cu: "+ current);
-                System.out.println("if ne: " + next); 
             }
-            else{
-                count++;
-                System.out.println("else cu: "+ current);
-                System.out.println("else ne: " + next);
-            }
+            else
+                 count++;
         } 
         return encode;
-        
     }
    
     
