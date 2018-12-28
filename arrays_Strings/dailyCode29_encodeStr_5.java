@@ -12,7 +12,16 @@ public class dailyCode29_encodeStr_5 {
     // solely of alphabetic characters. You can assume the string to be 
     // decoded is valid.
     public static void main( String[] args){
-        System.out.print("hdbc");
+        // Scanner read = new Scanner(System.in);
+        // System.out.print("ENter string in all caps OR enter -1 to exit");
+        // String next = read.nextLine();
+        // while(!next.equals("-1")){
+        //    System.out.println(sol(next)); 
+        //    System.out.print("\nENter string in all caps OR enter -1 to exit");
+        //    next = read.nextLine(); 
+        // }
+
+        
         System.out.println(sol("AAAABBBCCDAAA"));
     }
     
