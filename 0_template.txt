@@ -7,7 +7,12 @@ public class {
         System.out.println("kjhwguefjgh");
     }
     public static void sol(){
-         /* PLAN
+         /* P L A N 
+          -run time approx: 
+        */
+
+
+        /* FUTURE ITERATION
         */
         
     }
