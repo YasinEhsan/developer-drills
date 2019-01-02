@@ -11,7 +11,7 @@ A personal reference to coding exercises, syntax nuances, and best practices.
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 - [Java2Novice Interview Set](http://www.java2novice.com/java-interview-programs/distinct-elements/)
 - [DailyCodingProblem: Amazon, FB, Google Qs](https://www.dailycodingproblem.com/)
-- [Google Tech Intv Guide](https://techdevguide.withgoogle.com/)
+- [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 
 
 
