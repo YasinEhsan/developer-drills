@@ -24,7 +24,7 @@ public class dailyCode4_missingInt_5{
         */
 
         Set<Integer> store = new HashSet<Integer>();
-        int max = 0, next = 0;
+        int max = 0;
 
         for(int e: a){
             if(max < e)
