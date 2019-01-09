@@ -29,9 +29,6 @@ public class Main {
     
 
 
-
-
-
     for(String e: con)
       System.out.println(e);
 
