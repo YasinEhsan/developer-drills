@@ -4,7 +4,7 @@ A personal reference to coding exercises, syntax nuances, and best practices.
 ## Breakout
   - Majority folders are fundamental data structures topics. Practice problems are sorted based on the data structure used.
   - **007** stores cheat-sheets for git bash commands, printf Java syntax, NodeJS on bash, etc.
-  - **basic_Takeaways.md** is a compilation of the most important concepts from this repo. Each topic also has a specified "Takeaways" section in its' README.
+  - **allStar.java** is a compilation of the most important concepts from this repo. 
 
 ## Sources
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
@@ -12,6 +12,8 @@ A personal reference to coding exercises, syntax nuances, and best practices.
 - [Java2Novice Interview Set](http://www.java2novice.com/java-interview-programs/distinct-elements/)
 - [DailyCodingProblem: Amazon, FB, Google Qs](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
+- [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
+- [Codebat](https://codingbat.com/java)
 
 ## Takeaways
 - **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue).
