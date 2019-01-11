@@ -2,8 +2,8 @@
 
 # Mac OS X
 # metadata
-.DS_Store
 .*
+!.gitignore
 
 # thumbnails
 ._*
