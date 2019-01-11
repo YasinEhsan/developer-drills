@@ -21,6 +21,14 @@ A personal reference to coding exercises, syntax nuances, and best practices.
   - == checks memory address
   - .compareTo finds difference.
   - .Equals finds equality
+- Traditional if-else construct in C, Java and JavaScript vs a neat one-liner
+```Java
+if (a > b) result = x;
+else result = y;
+
+result = a > b ? x : y; //Alternative
+```
+
 
 
 
