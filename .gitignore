@@ -3,6 +3,9 @@
 # Mac OS X
 # metadata
 .DS_Store
+.classpath
+.project
+.gitignore
 # thumbnails
 ._*
 
