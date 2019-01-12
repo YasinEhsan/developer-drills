@@ -2,11 +2,12 @@
 A personal reference to coding exercises, syntax nuances, and best practices.
 
 ## Breakout
-  - Majority folders are fundamental data structures topics. Practice problems are sorted based on the data structure used.
-  - **007** stores cheat-sheets for source control, run + space time complexity, printf syntax, etc.
+  - Practice problems are sorted based on the data structure used.
+  - **007** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
+  - **books** holds useful study materials. i.e. *Cracking the Coding Interview, 6th Edition PDF*
   - **allStar.java** is a compilation of the most important concepts from this repo. 
 
-## Sources
+## Problem Sources
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 - [Java2Novice Interview Set](http://www.java2novice.com/java-interview-programs/distinct-elements/)
