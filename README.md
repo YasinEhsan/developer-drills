@@ -3,7 +3,7 @@ A personal reference to coding exercises, syntax nuances, and best practices.
 
 ## Breakout
   - Majority folders are fundamental data structures topics. Practice problems are sorted based on the data structure used.
-  - **007** stores cheat-sheets for git bash commands, printf Java syntax, NodeJS on bash, etc.
+  - **007** stores cheat-sheets for source control, run + space time complexity, printf syntax, etc.
   - **allStar.java** is a compilation of the most important concepts from this repo. 
 
 ## Sources
