@@ -4,7 +4,8 @@ A personal reference to coding exercises, syntax nuances, and best practices.
 ## Breakout
   - Practice problems are sorted based on the data structure used.
   - **007** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
-  - **books** holds useful study materials. i.e. *Cracking the Coding Interview, 6th Edition PDF*
+  - **books** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](https://github.com/YasinEhsan/Developer_Drills/blob/master/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)*
+  -**books** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)* 
   - **allStar.java** is a compilation of the most important concepts from this repo. 
 
 ## Problem Sources
