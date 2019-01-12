@@ -18,15 +18,8 @@ A reference to interview exercises, syntax nuances, and best practices.
 
 ## Takeaways
 - **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue). 
-- **.Equals()** compares objects **.compareTo** finds lexicographic difference **==** checks memory address
-- Neat one-liner condition Statement... int result = a > b ? x : y; 
-```
-
-
-
-
-
-
+- **.Equals()** compares objects | **.compareTo** finds lexicographic difference | **==** checks memory address
+- Neat one-liner condition statement **int result = a > b ? x : y;**
 
 
 
