@@ -17,17 +17,9 @@ A reference to interview exercises, syntax nuances, and best practices.
 - [Codebat](https://codingbat.com/java)
 
 ## Takeaways
-- **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue).
-- "computer".compareTo ("comparison") will return a value of (int) 'u' - (int) 'a' (21). Since this is a positive result, the parameter ("comparison") is lexicographically first. == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.To summarize...
-  - == checks memory address
-  - .compareTo finds difference.
-  - .Equals finds equality
-- Traditional if-else construct in C, Java and JavaScript versus a neat one-liner
-```Java
-if (a > b) result = x;
-else result = y;
-
-result = a > b ? x : y; //Alternative
+- **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue). 
+- **.Equals()** compares objects **.compareTo** finds lexicographic difference **==** checks memory address
+- Neat one-liner condition Statement... int result = a > b ? x : y; 
 ```
 
 
