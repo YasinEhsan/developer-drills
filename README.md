@@ -17,9 +17,9 @@ A reference to interview exercises, syntax nuances, and best practices.
 - [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
 - [Codebat](https://codingbat.com/java)
 
+
 ***
----
-___
+
 
 ## Data Structures 101
 
