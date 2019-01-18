@@ -1,27 +1,3 @@
-# Developer_Drills
-A reference to interview exercises, syntax nuances, and best practices.
-
-## Breakout
-  - Practice problems are cataloged based on the data structure implemented.
-  - **007** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
-  - **books** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)* 
-  - **allStar.java** is a compilation of the most important concepts from this repo. 
-
-## Problem Sources
-- [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
-- [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
-- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-programs/distinct-elements/)
-- [DailyCodingProblem: Amazon, FB, Google Qs](https://www.dailycodingproblem.com/)
-- [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
-- [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
-- [Codebat](https://codingbat.com/java)
-
-## Takeaways
-- **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue). 
-- **.Equals()** compares objects | **.compareTo** finds lexicographic difference | **==** checks memory address
-- Neat one-liner condition statement **int result = a > b ? x : y;**
-
-
 ## Studying for a Tech Interview Sucks, so Here's a Cheat Sheet to Help
 
 This list is meant to be a both a quick guide and reference for further research into these topics.  It's basically a summary of that comp sci course you never took or forgot about, so there's no way it can cover everything in depth.  It also will be available as a [gist](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) on Github for everyone to edit and add to.
@@ -292,7 +268,3 @@ greedy algorithm (array)
 ```
 
 This algorithm never needed to compare all the differences to one another, saving it an entire iteration.
-
-## License
-© Yasin Ehsan
-Licensed under the [Apache License](LICENSE).
