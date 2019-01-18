@@ -3,10 +3,10 @@ A reference to interview exercises, syntax nuances, and best practices.
 
 ## Breakout
   - Practice problems are cataloged based on the data structure implemented.
-  - A solid introduction of data structures and its use cases are [below](##Data-Structures-101)
-  - **Books folder** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
-  - **007 folder** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
-  - **allStar.java** is a code compilation of most important concepts from this repo. 
+  - A solid introduction of data structures and its use cases are [below](#Data-Structures-101).
+  - The **books** folder holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF]*(/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
+  - The **007** folder stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
+  - The **allStar.java** file is a code compilation of important concepts from this repo. 
 
 ## Problem Sources
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
