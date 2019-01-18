@@ -3,9 +3,10 @@ A reference to interview exercises, syntax nuances, and best practices.
 
 ## Breakout
   - Practice problems are cataloged based on the data structure implemented.
-  - **007** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
-  - **books** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)* 
-  - **allStar.java** is a compilation of the most important concepts from this repo. 
+  - Solid introduction of data structures and its use cases [below](## Data Structures 101)
+  - **Books folder** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
+  - **007 folder** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
+  - **allStar.java** is a code compilation of most important concepts from this repo. 
 
 ## Problem Sources
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
@@ -16,20 +17,10 @@ A reference to interview exercises, syntax nuances, and best practices.
 - [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
 - [Codebat](https://codingbat.com/java)
 
-## Takeaways
-- **MUST KNOW DATA STRUCTURES**: arrays, linked lists, hash tables, AVL binary trees, heaps(priority Queue). 
-- **.Equals()** compares objects | **.compareTo** finds lexicographic difference | **==** checks memory address
-- Neat one-liner condition statement **int result = a > b ? x : y;**
+## Data Structures 101
 
-
-## Studying for a Tech Interview Sucks, so Here's a Cheat Sheet to Help
-
-This list is meant to be a both a quick guide and reference for further research into these topics.  It's basically a summary of that comp sci course you never took or forgot about, so there's no way it can cover everything in depth.  It also will be available as a [gist](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) on Github for everyone to edit and add to.
-
-## Data Structure Basics
-
-###**Array**
-####Definition:
+### **Array**
+#### Definition:
 - Stores data elements based on an sequential, most commonly 0 based, index.
 - Based on [tuples](http://en.wikipedia.org/wiki/Tuple) from set theory.
 - They are one of the oldest, most commonly used data structures.  
@@ -49,7 +40,7 @@ This list is meant to be a both a quick guide and reference for further research
 - Insertion:        Linear array: n/a        Dynamic array: O(n)
   
 
-###**Linked List**
+### **Linked List**
 ####Definition: 
 - Stores data with **nodes** that point to other nodes.
   - Nodes, at its most basic it has one datum and one reference (another node).
@@ -66,39 +57,39 @@ This list is meant to be a both a quick guide and reference for further research
   - Queues are a **first in, first out** (FIFO) data structure.
   - Made with a doubly linked list that only removes from head and adds to tail.  
 
-####Big O efficiency:
+#### Big O efficiency:
 - Indexing:         Linked Lists: O(n)
 - Search:           Linked Lists: O(n)
 - Optimized Search: Linked Lists: O(n)
 - Insertion:        Linked Lists: O(1)  
 
 
-###**Hash Table or Hash Map**
-####Definition: 
+### **Hash Table or Hash Map**
+#### Definition: 
 - Stores data with key value pairs.
 - **Hash functions** accept a key and return an output unique only to that specific key. 
   - This is known as **hashing**, which is the concept that an input and an output have a one-to-one correspondence to map information.
   - Hash functions return a unique address in memory for that data.
 
-####What you need to know:
+#### What you need to know:
 - Designed to optimize searching, insertion, and deletion.
 - **Hash collisions** are when a hash function returns the same output for two distinct inputs.
   - All hash functions have this problem.
   - This is often accommodated for by having the hash tables be very large.
 - Hashes are important for associative arrays and database indexing.
 
-####Big O efficiency:
+#### Big O efficiency:
 - Indexing:         Hash Tables: O(1)
 - Search:           Hash Tables: O(1)
 - Insertion:        Hash Tables: O(1)  
 
 
-###**Binary Tree**
-####Definition: 
+### **Binary Tree**
+#### Definition: 
 - Is a tree like data structure where every node has at most two children.
   - There is one left and right child node.
 
-####What you need to know:
+#### What you need to know:
 - Designed to optimize searching and sorting.
 - A **degenerate tree** is an unbalanced tree, which if entirely one-sided is a essentially a linked list.
 - They are comparably simple to implement than other data structures.
@@ -109,58 +100,58 @@ This list is meant to be a both a quick guide and reference for further research
   - There can be no duplicate node.
   - Because of the above it is more likely to be used as a data structure than a binary tree.
 
-####Big O efficiency:
+#### Big O efficiency:
 - Indexing:  Binary Search Tree: O(log n)
 - Search:    Binary Search Tree: O(log n)
 - Insertion: Binary Search Tree: O(log n) 
 
 
 ## Search Basics
-###**Breadth First Search**
-####Definition:
+### **Breadth First Search**
+#### Definition:
 - An algorithm that searches a tree (or graph) by searching levels of the tree first, starting at the root.
   - It finds every node on the same level, most often moving left to right. 
   - While doing this it tracks the children nodes of the nodes on the current level.
   - When finished examining a level it moves to the left most node on the next level.
   - The bottom-right most node is evaluated last (the node that is deepest and is farthest right of it's level). 
 
-####What you need to know:
+#### What you need to know:
 - Optimal for searching a tree that is wider than it is deep.
 - Uses a queue to store information about the tree while it traverses a tree.
   - Because it uses a queue it is more memory intensive than **depth first search**.
   - The queue uses more memory because it needs to stores pointers
   
-####Big O efficiency:
+#### Big O efficiency:
 - Search: Breadth First Search: O(|E| + |V|)
 - E is number of edges
 - V is number of vertices
 
-###**Depth First Search**
-####Definition:
+### **Depth First Search**
+#### Definition:
 - An algorithm that searches a tree (or graph) by searching depth of the tree first, starting at the root.
   - It traverses left down a tree until it cannot go further.
   - Once it reaches the end of a branch it traverses back up trying the right child of nodes on that branch, and if possible left from the right children.
   - When finished examining a branch it moves to the node right of the root then tries to go left on all it's children until it reaches the bottom.
   - The right most node is evaluated last (the node that is right of all it's ancestors). 
   
-####What you need to know:
+#### What you need to know:
 - Optimal for searching a tree that is deeper than it is wide.
 - Uses a stack to push nodes onto.
   - Because a stack is LIFO it does not need to keep track of the nodes pointers and is therefore less memory intensive than breadth first search.
   - Once it cannot go further left it begins evaluating the stack.
   
-####Big O efficiency:
+#### Big O efficiency:
 - Search: Depth First Search: O(|E| + |V|)
 - E is number of edges
 - V is number of vertices
 
 
-####Breadth First Search Vs. Depth First Search
+#### Breadth First Search Vs. Depth First Search
 - The simple answer to this question is that it depends on the size and shape of the tree.
   - For wide, shallow trees use Breadth First Search
   - For deep, narrow trees use Depth First Search
 
-####Nuances:
+#### Nuances:
   - Because BFS uses queues to store information about the nodes and its children, it could use more memory than is available on your computer.  (But you probably won't have to worry about this.)
   - If using a DFS on a tree that is very deep you might go unnecessarily deep in the search. See [xkcd](http://xkcd.com/761/) for more information.
   - Breadth First Search tends to be a looping algorithm.
@@ -168,68 +159,68 @@ This list is meant to be a both a quick guide and reference for further research
 
 
 ## Efficient Sorting Basics
-###**Merge Sort**
-####Definition:
+### **Merge Sort**
+#### Definition:
 - A comparison based sorting algorithm
   - Divides entire dataset into groups of at most two.
   - Compares each number one at a time, moving the smallest number to left of the pair.
   - Once all pairs sorted it then compares left most elements of the two leftmost pairs creating a sorted group of four with the smallest numbers on the left and the largest ones on the right. 
   - This process is repeated until there is only one set.
 
-####What you need to know:
+#### What you need to know:
 - This is one of the most basic sorting algorithms.
 - Know that it divides all the data into as small possible sets then compares them.
 
-####Big O efficiency:
+#### Big O efficiency:
 - Best Case Sort: Merge Sort: O(n)
 - Average Case Sort: Merge Sort: O(n log n)
 - Worst Case Sort: Merge Sort: O(n log n)
 
-###**Quicksort**
-####Definition:
+### **Quicksort**
+#### Definition:
 - A comparison based sorting algorithm
   - Divides entire dataset in half by selecting the average element and putting all smaller elements to the left of the average.
   - It repeats this process on the left side until it is comparing only two elements at which point the left side is sorted.
   - When the left side is finished sorting it performs the same operation on the right side.
 - Computer architecture favors the quicksort process.
 
-####What you need to know:
+#### What you need to know:
 - While it has the same Big O as (or worse in some cases) many other sorting algorithms it is often faster in practice than many other sorting algorithms, such as merge sort.
 - Know that it halves the data set by the average continuously until all the information is sorted.
 
-####Big O efficiency:
+#### Big O efficiency:
 - Best Case Sort: Merge Sort: O(n)
 - Average Case Sort: Merge Sort: O(n log n)
 - Worst Case Sort: Merge Sort: O(n^2)
 
-###**Bubble Sort**
-####Definition:
+### **Bubble Sort**
+#### Definition:
 - A comparison based sorting algorithm
   - It iterates left to right comparing every couplet, moving the smaller element to the left.
   - It repeats this process until it no longer moves and element to the left.
 
-####What you need to know:
+#### What you need to know:
 - While it is very simple to implement, it is the least efficient of these three sorting methods.
 - Know that it moves one space to the right comparing two elements at a time and moving the smaller on to left.
 
-####Big O efficiency:
+#### Big O efficiency:
 - Best Case Sort: Merge Sort: O(n)
 - Average Case Sort: Merge Sort: O(n^2)
 - Worst Case Sort: Merge Sort: O(n^2)
 
-####Merge Sort Vs. Quicksort
+#### Merge Sort Vs. Quicksort
 - Quicksort is likely faster in practice.
 - Merge Sort divides the set into the smallest possible groups immediately then reconstructs the incrementally as it sorts the groupings.
 - Quicksort continually divides the set by the average, until the set is recursively sorted.
 
 ## Basic Types of Algorithms
-###**Recursive Algorithms**
-####Definition:
+### **Recursive Algorithms**
+#### Definition:
 - An algorithm that calls itself in its definition.
   - **Recursive case** a conditional statement that is used to trigger the recursion.
   - **Base case** a conditional statement that is used to break the recursion.
 
-####What you need to know:
+#### What you need to know:
 - **Stack level too deep** and **stack overflow**.
   - If you've seen either of these from a recursive algorithm, you messed up.
   - It means that your base case was never triggered because it was faulty or the problem was so massive you ran out of RAM before reaching it.
@@ -237,17 +228,17 @@ This list is meant to be a both a quick guide and reference for further research
   - Often used in Depth First Search
 
 
-###**Iterative Algorithms**
-####Definition:
+### **Iterative Algorithms**
+#### Definition:
 - An algorithm that is called repeatedly but for a finite number of times, each time being a single iteration.
   - Often used to move incrementally through a data set.
 
-####What you need to know:
+#### What you need to know:
 - Generally you will see iteration as loops, for, while, and until statements.
 - Think of iteration as moving one at a time through a set.
 - Often used to move through an array.
 
-####Recursion Vs. Iteration
+#### Recursion Vs. Iteration
 - The differences between recursion and iteration can be confusing to distinguish since both can be used to implement the other. But know that,
   - Recursion is, usually, more expressive and easier to implement.
   - Iteration uses less memory.
@@ -255,7 +246,7 @@ This list is meant to be a both a quick guide and reference for further research
 - **Imperative languages** tend to use iteration. (i.e. Ruby)
 - Check out this [Stack Overflow post](http://stackoverflow.com/questions/19794739/what-is-the-difference-between-iteration-and-recursion) for more info.
 
-####Pseudo Code of Moving Through an Array (this is why iteration is used for this)
+#### Pseudo Code of Moving Through an Array (this is why iteration is used for this)
 ```
 Recursion                         | Iteration
 ----------------------------------|----------------------------------
@@ -266,8 +257,8 @@ recursive method (array, n)       | iterative method (array)
   else                            |
     exit loop                     |
 ```
-###**Greedy Algorithm**
-####Definition:
+### **Greedy Algorithm**
+#### Definition:
 - An algorithm that, while executing, selects only the information that meets a certain criteria.
 - The general five components, taken from [Wikipedia](http://en.wikipedia.org/wiki/Greedy_algorithm#Specifics):
   - A candidate set, from which a solution is created.
@@ -276,12 +267,12 @@ recursive method (array, n)       | iterative method (array)
   - An objective function, which assigns a value to a solution, or a partial solution.
   - A solution function, which will indicate when we have discovered a complete solution.
 
-####What you need to know:
+#### What you need to know:
 - Used to find the optimal solution for a given problem.
 - Generally used on sets of data where only a small proportion of the information evaluated meets the desired result.
 - Often a greedy algorithm can help reduce the Big O of an algorithm.
 
-####Pseudo Code of a Greedy Algorithm to Find Largest Difference of any Two Numbers in an Array.
+#### Pseudo Code of a Greedy Algorithm to Find Largest Difference of any Two Numbers in an Array.
 ```
 greedy algorithm (array)
   var largest difference = 0
