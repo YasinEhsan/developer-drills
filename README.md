@@ -10,7 +10,7 @@ A reference to interview exercises, syntax nuances, and best practices.
 ## Problem Sources
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
-- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-programs/distinct-elements/)
+- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-questions/)
 - [DailyCodingProblem: Amazon, FB, Google Qs](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 - [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
@@ -292,6 +292,9 @@ greedy algorithm (array)
 ```
 
 This algorithm never needed to compare all the differences to one another, saving it an entire iteration.
+---
+
+Credit to [Tristan Siegel](https://gist.github.com/TSiege) for the ***Data Structure Basics*** cheat-sheet.
 
 ## License
 © Yasin Ehsan
