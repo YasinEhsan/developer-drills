@@ -3,7 +3,7 @@ A reference to interview exercises, syntax nuances, and best practices.
 
 ## Breakout
   - Practice problems are cataloged based on the data structure implemented.
-  - Solid introduction of data structures and its use cases [below](## Data Structures 101)
+  - A solid introduction of data structures and its use cases are [below](##Data-Structures-101)
   - **Books folder** holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
   - **007 folder** stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
   - **allStar.java** is a code compilation of most important concepts from this repo. 
@@ -25,7 +25,7 @@ A reference to interview exercises, syntax nuances, and best practices.
 - Based on [tuples](http://en.wikipedia.org/wiki/Tuple) from set theory.
 - They are one of the oldest, most commonly used data structures.  
   
-####What you need to know:
+#### What you need to know:
 - Optimal for indexing; bad at searching, inserting, and deleting (except at the end).
 - **Linear arrays**, or one dimensional arrays, are the most basic.
   - Are static in size, meaning that they are declared with a fixed size.
@@ -33,7 +33,7 @@ A reference to interview exercises, syntax nuances, and best practices.
   - If a dynamic array is full, it copies it's contents to a larger array.
 - **Two dimensional arrays** have x and y indices like a grid or nested arrays.  
   
-####Big O efficiency:
+#### Big O efficiency:
 - Indexing:         Linear array: O(1),      Dynamic array: O(1)
 - Search:           Linear array: O(n),      Dynamic array: O(n)
 - Optimized Search: Linear array: O(log n), Dynamic array: O(log n)
@@ -41,12 +41,12 @@ A reference to interview exercises, syntax nuances, and best practices.
   
 
 ### **Linked List**
-####Definition: 
+#### Definition: 
 - Stores data with **nodes** that point to other nodes.
   - Nodes, at its most basic it has one datum and one reference (another node).
   - A linked list _chains_ nodes together by pointing one node's reference towards another node.  
 
-####What you need to know:
+#### What you need to know:
 - Designed to optimize insertion and deletion, slow at indexing and searching.
 - **Doubly linked list** has nodes that reference the previous node.
 - **Circularly linked list** is simple linked list whose **tail**, the last node, references the **head**, the first node.
@@ -283,9 +283,10 @@ greedy algorithm (array)
 ```
 
 This algorithm never needed to compare all the differences to one another, saving it an entire iteration.
+
 ---
 
-Credit to [Tristan Siegel](https://gist.github.com/TSiege) for the ***Data Structure Basics*** cheat-sheet.
+Credit to [Tristan Siegel](https://gist.github.com/TSiege) for ***Data Structure 101*** reference.
 
 ## License
 © Yasin Ehsan
