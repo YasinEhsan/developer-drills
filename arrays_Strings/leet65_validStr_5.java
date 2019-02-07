@@ -31,10 +31,23 @@ public class leet65_validStr_5{
 
       */
     public static void main( String[] args){
-        String s = "";
-        System.out.println(sol(s));
+        String[] s = {"0",
+        " 0.1 ",
+        "abc", 
+        "1 a",
+        "2e10",
+        " -90e3",
+        " 1e", 
+        "e3",
+        " 6e-1",
+        " 99e2.5 ",
+        "53.5e93",
+        " --6 ",
+        "-+3",
+        "95a54e53"};
+        sol(s);
     }
-    public static boolean sol(String s){
+    public static boolean sol(String[] s){
          /* P L A N 
           -run time approx: 
           - create if statements for each para.
@@ -44,13 +57,18 @@ public class leet65_validStr_5{
           - string is a decimal it is good.
           - s can contain the letter e. thats all. 
         */
-
-        try{
+        for(String k : s){
+            try{
+                Double.valueOf(k);
+                System.out.println(k + " => True");
+            }
+            catch(Exception e){
+                System.out.println(k + " => False");
+            }
 
         }
-        catch{
-            
-        }
+        return true;
+       
 
 
 
