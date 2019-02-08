@@ -17,11 +17,11 @@
 
 
 ## Takeaways
-- Popular ascii refrences :: 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90. | '0' = 48 | '9' = 57
-- Convert String to ascii :: *int ascii = (int) store[j]*  (Store[i] is char[])
+- Popular ascii refrences :: 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90 | '0' = 48 | '9' = 57.
+- Convert String to ascii :: *int ascii = (int) charArray[j]*  
 - Convert int to string :: *Integer.toString(int)*
 - Convert String to int :: *(int) INTEGER.valueOf(String s)*
 - Convert string to char array :: *.toCharArray()*
-- Replace or remove elements in string :: *replaceAll("\\s","")* (this ex. rm whitespace)
+- Replace or remove elements in string :: *replaceAll("\\s","")* :: this example rm whitespace
 
 
