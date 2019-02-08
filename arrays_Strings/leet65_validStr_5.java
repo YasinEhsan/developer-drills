@@ -1,6 +1,6 @@
 import java.util.*; // i.e Arrays.sort
 import java.io.*; 
-public class leet65_validStr_5{
+public class leet65_validStr_3{
      /*QUESTION
         Validate if a given string can be interpreted as a decimal number.
 
