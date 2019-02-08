@@ -23,5 +23,5 @@
 - Convert String to int :: *(int) INTEGER.valueOf(String s)*
 - Convert string to char array :: *.toCharArray()*
 - Replace or remove elements in string :: *replaceAll("\\s","")* 
-
+- 
 
