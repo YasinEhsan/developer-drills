@@ -27,6 +27,7 @@ int ascii = (int) store[j]; // Where store[i] is char[]
 ```Java
 Integer.toString(int)
 ```
-
+- convert string to char array: *.toCharArray()*
+- replace elements in string. i.e. rm whitespace: *replaceAll("\\s","")*
 
 
