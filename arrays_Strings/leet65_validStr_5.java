@@ -44,10 +44,15 @@ public class leet65_validStr_5{
         "53.5e93",
         " --6 ",
         "-+3",
-        "95a54e53"};
-        sol(s);
+        "95a54e53",
+        
+        "959440.94f",
+        "1 "};
+        for(String k : s)
+            System.out.printf("\"%s\" => %s\n", k, sol(k));//string, = , bool
+        // System.out.println((int)'0');
     }
-    public static boolean sol(String[] s){
+    public static boolean sol(String s){
          /* P L A N 
           -run time approx: 
           - create if statements for each para.
@@ -57,17 +62,23 @@ public class leet65_validStr_5{
           - string is a decimal it is good.
           - s can contain the letter e. thats all. 
         */
-        for(String k : s){
-            try{
-                Double.valueOf(k);
-                System.out.println(k + " => True");
-            }
-            catch(Exception e){
-                System.out.println(k + " => False");
-            }
+        
+        try{
+            
+            for(char h : s.replaceAll("\\s","").toCharArray()){
+                if((h < (int)'0' || h > (int)'9') && h != '.' && h != '+' && h != '-' && h!= 'e')
+                     return false;
 
+            }
+            Double.valueOf(s);
+            return true;
         }
-        return true;
+        catch(Exception e){
+            return false;
+        }
+
+        
+       
        
 
 
@@ -77,6 +88,9 @@ public class leet65_validStr_5{
 
 
         /* FUTURE ITERATION
+            - try to solvce it in O(n). Convert to char and put it into a hashset. 
+            - is it possible to put an array of elements(our case chars) into a set without looping?
+            - if possible, than use contains meathod and if it contians any elements in the above if statement: 86 it!
         */
         
     }
