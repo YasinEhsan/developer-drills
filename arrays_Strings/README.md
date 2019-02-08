@@ -17,14 +17,16 @@
 
 
 ## Takeaways
-- 'a' is 97 ascii. 'z' : 122. 'A' : 65. 'Z' : 90. String to ascii...
-> ```Java
+- Popular ascii refrences: 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90. | '0' = 48 | '9' = 57
+- Convert String to ascii...
+```Java
 int ascii = (int) store[j]; // Where store[i] is char[]
 ```
-- Convert from int to string: 
+- Convert int to string: 
 ```Java
 Integer.toString(int)
 ```
+- convert String to int *(int) INTEGER.valueOf(String s)*
 - convert string to char array: *.toCharArray()*
 - replace elements in string. i.e. rm whitespace: *replaceAll("\\s","")*
 

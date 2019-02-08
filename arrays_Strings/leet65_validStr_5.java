@@ -1,6 +1,6 @@
 import java.util.*; // i.e Arrays.sort
 import java.io.*; 
-public class leet65_validStr_3{
+public class leet65_validStr_5{
      /*QUESTION
         Validate if a given string can be interpreted as a decimal number.
 
@@ -50,7 +50,7 @@ public class leet65_validStr_3{
         "1 "};
         for(String k : s)
             System.out.printf("\"%s\" => %s\n", k, sol(k));//string, = , bool
-        // System.out.println((int)'0');
+        // System.out.println((int)'9');
     }
     public static boolean sol(String s){
          /* P L A N 
