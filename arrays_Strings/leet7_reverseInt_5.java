@@ -53,6 +53,7 @@ Assume we are dealing with an environment which could only store integers within
         /* FUTURE ITERATION
         - is there a way of doing this in less then O(n).
         - can we use recursion?
+        - i peeped optimal sol. they used push and pop methods.
         */
         
     }
