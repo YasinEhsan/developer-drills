@@ -10,7 +10,7 @@ public class {
      /*QUESTION
       */
     public static void main( String[] args){
-        System.out.println("kjhwguefjgh");
+        System.out.println("Run Successful!");
     }
     public static void sol(){
          /* P L A N 
