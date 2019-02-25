@@ -27,10 +27,13 @@ public class classified_adjacentChar_3{
     }
     private static int reform(String k){
         int count = 0;
-        for(int i = 0; i < k.length() -1; ++i){
+        char[] c = k.toCharArray();
+        for(int i = 0; i < c.length -1; ++i){
             int j = i +1;
-            if(k.substring(i, i+1).equal(k.substring(j, j+1)))
-                count++;
+            if(c[i] == c[j]){
+                // c[j] = 
+            }
+            
         }
         return 1;
     }
@@ -44,15 +47,8 @@ public class classified_adjacentChar_3{
     //    System.out.println("C".equals("c"));
 
         String s = "jjfk";
-        char[] c = s.toCharArray();
-        for(int i = 0; i < c.length -1; ++i){
-            int j = i +1;
-            if(c[i] == c[j]){
-                c[j] = 
-            }
-            
-        }
-        (int)MATH.random()*12
+        
+        System.out.print((int)(MATH.random()*(5 +1)));
         char[] c = s.toCharArray();
         // System.out.printf("%C",c[2]);
         char c1 = 'c';
