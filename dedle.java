@@ -1,1 +1,0 @@
-classs public static
