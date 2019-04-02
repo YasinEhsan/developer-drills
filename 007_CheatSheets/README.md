@@ -43,3 +43,5 @@
   - git commit -am" "
 	- create the git repo online WITHOUT a README. Then copy the code from the section that reads: **"...or push an existing repository from the command line"** 
   - git push (-u origin master)
+### Install git 
+- [The great link](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
