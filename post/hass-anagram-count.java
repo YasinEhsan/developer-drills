@@ -11,8 +11,6 @@ class Main {
   public static void main(String[] args) {
 
     String[] aG = {"ddff", "sdb", "jk", "abc","mnn","abc"}, bG = {"ddjf", "sgh", "kj", "bbc","opp","djf"};
-
-
     List<String> a = new ArrayList<>(), b = new ArrayList<>();
 
     for(int i = 0; i < aG.length; ++i){
@@ -34,7 +32,6 @@ class Main {
 
       for(int i = 0; i < a.size(); ++i){
         int[] aCount = new int[26], bCount = new int[26];
-
         char[] aWord = a.get(i).toCharArray(), bWord = b.get(i).toCharArray();
 
         if(aWord.length != bWord.length)
@@ -47,6 +44,7 @@ class Main {
           }
 
           int diff = aWord.length;
+          
           for(int k = 0; k < aCount.length; ++k)
             if(aCount[k] > 0 && bCount[k] > 0)
               diff -= Math.min(aCount[k], bCount[k]);
