@@ -12,7 +12,7 @@ A reference to interview exercises, syntax nuances, and best practices.
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 - [Algo Expert 65+ Qs with video review](https://www.algoexpert.io/)
-- [DailyCodingProblem. Emailed recent interview Qs](https://www.dailycodingproblem.com/)
+- [DailyCodingProblem. Recent interview Qs emailed](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 - [2018 Google Intv Qs](https://aonecode.com/google-interview-questions)
 - [Java2Novice Interview Set](http://www.java2novice.com/java-interview-questions/)
