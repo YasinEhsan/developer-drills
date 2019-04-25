@@ -5,36 +5,25 @@
 //MAJOR DEBUG : creating new char placeholder at the begining of foremost loop
 
 
-import java.util.*; // i.e Arrays.sort
+import java.util.*;
 import java.io.*; 
-
 class Main {
   public static void main(String[] args) {
 
-    String[] aG = {"ddff", "sdb", "jk", "abc","mnn","abc"};
-    String[] bG = {"ddjf", "sgh", "kj", "bbc","opp","djf"};
+    String[] aG = {"ddff", "sdb", "jk", "abc","mnn","abc"}, bG = {"ddjf", "sgh", "kj", "bbc","opp","djf"};
 
 
-    List<String> a = new ArrayList<>();
-    List<String> b = new ArrayList<>();
+    List<String> a = new ArrayList<>(), b = new ArrayList<>();
 
-    for(String e: aG){
-      a.add(e);
-      
-    }
-    for(String e: bG){
-      b.add(e);
+    for(int i = 0; i < aG.length; ++i){
+      a.add(aG[i]);
+      b.add(bG[i]);
     }
 
     List<Integer> c = getMinimumDifference(a, b);
-    
-   System.out.println("\n\n");
 
-
-    for(Integer e: c){
+    for(Integer e: c)
       System.out.println(e);
-    }
-
     System.out.println("DONE");
 
   }
@@ -42,62 +31,44 @@ class Main {
   public static List<Integer> getMinimumDifference(List<String> a, List<String> b) {
 
       List<Integer> store = new ArrayList<>(); 
-      
 
       for(int i = 0; i < a.size(); ++i){
-        int[] aCount = new int[26];
-        int[] bCount = new int[26];
+        int[] aCount = new int[26], bCount = new int[26];
 
-        char[] aWord = a.get(i).toCharArray();
-        char[] bWord = b.get(i).toCharArray();
+        char[] aWord = a.get(i).toCharArray(), bWord = b.get(i).toCharArray();
 
-        // System.out.printf("i %d | aW  %s | bW %s\n",i, a.get(i), b.get(i));
-
-        // for(char c: aWord){
-        //   System.out.printf("%c\n", c);
-        // }
-
-        if(aWord.length != bWord.length){
+        if(aWord.length != bWord.length)
           store.add(-1);
-          //  System.out.print("eturn neg one");
-          // break;
-         
-        }
-          
+
         else{
-
-
-
-
           for(int j = 0; j < aWord.length; ++j){
             aCount[aWord[j] - 'a']++;
             bCount[bWord[j] - 'a']++;
-            System.out.printf("j %d | aWord[j] %c %d | bWord[j]  %c %d \n", j, aWord[j], aWord[j] - 'a', bWord[j], bWord[j] - 'a');
-
           }
-          System.out.print("\n\n");
 
-
-          for(int k = 0; k < aCount.length; k++)
-            if(aCount[k] != 0 || bCount[k] != 0)
-              System.out.printf("%c  %d %d\n",(char)(k + 97), aCount[k], bCount[k]);
-
-      
-          
-        
           int diff = aWord.length;
-          for(int k = 0; k < aCount.length; ++k){
+          for(int k = 0; k < aCount.length; ++k)
             if(aCount[k] > 0 && bCount[k] > 0)
               diff -= Math.min(aCount[k], bCount[k]);
-          }
+
           store.add(diff);
-
-          
         }
-
       }
       return store;
     }
 
+    //GeeksForGeeks solution for single case
+    static int countManipulations(String s1, String s2) 
+    { 
+        int count = 0, char_count[] = new int[26]; 
+  
+        for (int i = 0; i < s1.length(); i++)  
+            char_count[s1.charAt(i) - 'a']++;  
 
+        for (int i = 0; i < s2.length(); i++)  
+            if (char_count[s2.charAt(i) - 'a']-- <= 0) 
+                count++; 
+          
+        return count; 
+    } 
 }
