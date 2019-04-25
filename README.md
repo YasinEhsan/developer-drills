@@ -8,13 +8,14 @@ A reference to interview exercises, syntax nuances, and best practices.
   - The **007** folder stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
   - The **algorithms.java** file is a code compilation of important algorithms from this repo. 
 
-## Problem Sources
+## Problem Bank
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
-- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-questions/)
-- [DailyCodingProblem: Amazon, FB, Google Qs](https://www.dailycodingproblem.com/)
+- [Algo Expert 65+ Qs with video review](https://www.algoexpert.io/)
+- [DailyCodingProblem. Get emailed recent big tech Qs](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
-- [2018 Google Intv Q](https://aonecode.com/google-interview-questions)
+- [2018 Google Intv Qs](https://aonecode.com/google-interview-questions)
+- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-questions/)
 - [Codebat](https://codingbat.com/java)
 
 ***
