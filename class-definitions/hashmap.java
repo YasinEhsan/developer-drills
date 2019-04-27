@@ -14,23 +14,35 @@ public class GFG
 		map.put("sachin", 30); 
 		map.put("vaibhav", 20); 
 		print(map); 
-    
+    		
+		
+		//add new keys or increment existing values
+		if(!map.containsKey(key)) {
+		 p.put(key,1);
+		}
+		else {
+		 p.put(key, map.getKey()+1);
+		}
+		
+		
 	 	//update value given key
 	    	map.put(key, map.get(key) + 1);
 
+		
 	    	//If you're only interested in the keys, you can iterate through the keySet() of the map:
 	    	Map<String, Object> map = ...;
 		for (String key : map.keySet()) {
 		// ...
 	    	}
+		
 
-	    	If you only need the values, use values():
+	    	//If you only need the values, use values():
 	    	for (Object value : map.values()) {
 			// ...
 	    	}	
 
 
-	    	Finally, if you want both the key and value, use entrySet():
+	    	//Finally, if you want both the key and value, use entrySet():
 	    	for (Map.Entry<String, Object> entry : map.entrySet()) {
 			String key = entry.getKey();
 			Object value = entry.getValue();
