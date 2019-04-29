@@ -5,6 +5,9 @@ class main{
     
     //convert array to arraylist
     ArrayList<String> store = Arrays.asList(s);
+    
+    //sort by ascii
+    Arrays.sort(array[]);
   }
 
 }
