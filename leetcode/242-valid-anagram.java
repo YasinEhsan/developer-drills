@@ -12,7 +12,37 @@ class Main {
   
 
   }
-  //n : Dictionary 
+  
+  //n. Creating values ONLY for keys which appear
+  private static boolean isAnagram(String a, String b){
+    Map<String, Integer> map = new HashMap<>();
+
+    if(a.length() != b.length())
+      return false;
+    
+    for(int i = 0; i < a.length(); ++i)
+      setKeyVal(map, 1, a.substring(i, i+1));
+
+    for(int i = 0; i < b.length(); ++i)
+      setKeyVal(map, -1, b.substring(i, i+1));
+
+    for(Integer e : map.values())
+     if(!(e == 0))
+      return false;
+
+    return true;
+  }
+
+  private static void setKeyVal(Map<String, Integer> map, int n, String key){
+    if(map.containsKey(key))
+      map.put(key, map.get(key) + n);
+    else
+      map.put(key, 1);
+
+  }
+  
+  
+  //n : Dictionary. Creating values for all possible keys
   public static boolean isAnagram(String s, String t) {
 
   if(s.length() != t.length() )
@@ -55,7 +85,7 @@ class Main {
   }
   
   
-  //n^2
+  //n^2. Uses arrays
   public boolean isAnagram(String s, String t) {
 
   if(s.length() != t.length() )
