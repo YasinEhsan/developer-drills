@@ -26,27 +26,36 @@ class Main {
        System.out.printf("%s ",e);
      }
       System.out.printf("\n");
-   }
-
-  
-  
 
   }
 
   
+  //METHOD 1. n^3 runtime. Could'nt run to scale
+  public static List<List<String>> groupAnagrams(String[] strs) {
+    List<List<String>> list = new ArrayList<>();
 
-  public List<List<String>> groupAnagrams(String[] strs) {
-    List<List<String>> list = new LinkedList<>();
+    for(int i = 0; i < strs.length; ++i){
+      if(strs[i].equals("0"))
+        continue;
+      else{
+        ArrayList<String> store = new ArrayList<>();
+        store.add(strs[i]);
+        for(int j = i + 1; j < strs.length; ++j){
+          if(isAnagram(strs[i], strs[j])){
+            store.add(strs[j]);
+            strs[j] = "0";
+          }
+        }
+        list.add(store);
+        strs[i] = "0";
+      }
+    }
 
     return list;
-
-    // for(int i = 0; i < strs.length; ++1){
-
-    // }
         
   }
 
-  private static boolean isAnagram(String a, String b){
+  public static boolean isAnagram(String a, String b){
     Map<String, Integer> map = new HashMap<>();
 
     if(a.length() != b.length()){
@@ -55,24 +64,12 @@ class Main {
     
     for(int i = 0; i < a.length(); ++i){
       setKeyVal(map, 1, a.substring(i, i+1));
-      // String key = a.substring(i, i+1);
-
-      // if(map.containsKey(key))
-      //   map.set(key, map.get(key) + 1);
-      // else
-      //   map.put(key, 0);
     }
-    print(map);
+    // print(map);
     for(int i = 0; i < b.length(); ++i){
       setKeyVal(map, -1, b.substring(i, i+1));
-      // String key = b.substring(i, i+1);
-
-      // if(map.containsKey(key))
-      //   map.put(key, map.get(key) - 1);
-      // else
-      //   map.put(key, 0);
     }
-    print(map);
+    // print(map);
 
     for(Integer e : map.values()){
      if(!(e == 0))
@@ -99,6 +96,4 @@ class Main {
 
      System.out.printf("DONE\n\n");
   }
-
-  
 }
