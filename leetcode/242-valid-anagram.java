@@ -14,6 +14,7 @@ class Main {
   }
   
    //METHOD 3. n Runtime. Using Arrays.sort() on .toCharArray()
+   //lower runtime. Greater space complexity
    public static boolean isAnagram(String s, String t) {
         
     if(s.length() != t.length())
