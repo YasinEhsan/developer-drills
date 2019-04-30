@@ -28,6 +28,33 @@ class Main {
       System.out.printf("\n");
 
   }
+  //METHOD 2. n^2 runtime. Uses Arrays, char, map, and list methods
+  public static List<List<String>> groupAnagrams(String[] strs) {
+
+    List<List<String>> group = new ArrayList<>();
+    HashMap<String, List<String>> map = new HashMap<>();
+
+    for(int i = 0; i < strs.length; ++i){
+      char[] store = strs[i].toCharArray();
+      Arrays.sort(store);
+      String sorted = new String(store);
+
+      if(map.containsKey(sorted))
+        map.get(sorted).add(strs[i]);
+      else{
+        List<String> hold = new ArrayList<>();
+        hold.add(strs[i]);
+        map.put(sorted,hold);
+      }
+    }
+
+    for(List<String> e : map.values()){
+      group.add(e);
+    }
+    
+    return group;
+
+  }
 
   
   //METHOD 1. n^3 runtime. Could'nt run to scale
