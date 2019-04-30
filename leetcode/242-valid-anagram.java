@@ -13,7 +13,28 @@ class Main {
 
   }
   
-  //n. Creating values ONLY for keys which appear
+   //METHOD 3. n Runtime. Using Arrays.sort() on .toCharArray()
+   public static boolean isAnagram(String s, String t) {
+        
+    if(s.length() != t.length())
+      return false;
+      
+    char[] store = s.toCharArray();
+    Arrays.sort(store);
+    String s2 = new String(store);
+
+    
+    char[] hold = t.toCharArray();
+    Arrays.sort(hold);
+    String t2 = new String(hold);
+
+    // return new String(hold).equals(new String(store));
+    return s2.equals(t2);
+    
+        
+    }
+  
+  //METHOD 2.5 runtime n. Creating values ONLY for keys which appear
   private static boolean isAnagram(String a, String b){
     Map<String, Integer> map = new HashMap<>();
 
@@ -42,7 +63,7 @@ class Main {
   }
   
   
-  //n : Dictionary. Creating values for all possible keys
+  //METHOD 2. n : Dictionary. Creating values for all possible keys
   public static boolean isAnagram(String s, String t) {
 
   if(s.length() != t.length() )
@@ -85,7 +106,7 @@ class Main {
   }
   
   
-  //n^2. Uses arrays
+  //METHOD 1. n^2. Uses arrays
   public boolean isAnagram(String s, String t) {
 
   if(s.length() != t.length() )
