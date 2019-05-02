@@ -1,22 +1,33 @@
 # Developer_Drills
-A reference to interview exercises, syntax nuances, and best practices.
+Mastering fundamental data structures and algorithms by solving something daily.
 
 ## Breakout
-  - Practice problems are cataloged based on the data structure implemented.
-  - A solid introduction of data structures and its use cases are below.
-  - The **books** folder holds useful study materials. i.e. *[Cracking the Coding Interview, 6th Edition PDF](/books/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)*
-  - The **007** folder stores cheat-sheets for source control, run + space time complexity, Ascii Conversion, etc.
-  - The **algorithms.java** file is a code compilation of important algorithms from this repo. 
+- **What** Prepare for full-time software engineering interview questions
+- **How** Familirize with one topic at a time. i.e. To get good at Anagram problems, tackle all Anagram related Q's on Leetcode
+- Currently knocking out Leetcode problems. Done so far : 10
+- [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)*
 
 ## Problem Bank
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
-- [Algo Expert 65+ Qs with video review](https://www.algoexpert.io/)
-- [DailyCodingProblem. Recent interview Qs emailed](https://www.dailycodingproblem.com/)
+- [Algo Expert 65+ Qs with video solutions](https://www.algoexpert.io/)
+- [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
-- [2018 Google Intv Qs](https://aonecode.com/google-interview-questions)
-- [Java2Novice Interview Set](http://www.java2novice.com/java-interview-questions/)
-- [Codebat](https://codingbat.com/java)
+
+[Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
+
+## Visuals
+- [Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
+
+
+## Takeaways
+- [Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
+- **.Equals()** compares objects | **.compareTo** finds lexicographic difference | **==** checks memory address
+- Neat one-liner condition statement **int result = a > b ? x : y;**
+- Override is prioritizing local methods over parent methods
+- Overload is methods with same names different parameters
+- Strings are immutable. Once defined, specific locations in string can't be changed. i.e. "wewr" change the first 'w' to 'K'
+- int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
 
 ***
 
