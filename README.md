@@ -14,10 +14,9 @@ Mastering fundamental data structures and algorithms by solving something daily.
 - [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 
-[Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
 
 ## Visuals
-- [Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
+- ![Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
 
 
 ## Takeaways
