@@ -2,8 +2,8 @@
 Mastering fundamental data structures and algorithms by solving something daily.
 
 ## Breakout
-- **What** Prepare for full-time software engineering interview questions
-- **How** Familirize with one topic at a time. i.e. To get good at Anagram problems, tackle all Anagram related Q's on Leetcode
+- Preparing for full-time software engineering interview questions
+- Familirizing one topic at a time. i.e. To get good with Anagrams, tackle all Anagram related Qs
 - Currently knocking out Leetcode problems. Done so far : 10
 - [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)
 
