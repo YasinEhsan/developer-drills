@@ -5,9 +5,10 @@ Mastering fundamental data structures and algorithms by solving something daily.
 - Preparing for full-time software engineering interview questions
 - Familirizing one topic at a time. i.e. To get good with Anagrams, tackle all Anagram related Qs
 - Currently knocking out Leetcode problems. Done so far : 10
-- [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)
+
 
 ## Problem Bank
+- [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 - [Algo Expert 65+ Qs with video solutions](https://www.algoexpert.io/)
@@ -25,7 +26,6 @@ Mastering fundamental data structures and algorithms by solving something daily.
 - Strings are immutable. Once defined, specific locations in string can't be changed. i.e. "wewr" change the first 'w' to 'K'
 - int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
 
-***
 
 ## License
 © Yasin Ehsan
