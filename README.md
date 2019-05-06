@@ -6,7 +6,6 @@ Mastering fundamental data structures and algorithms by solving something daily.
 - Strategy 1 (Mastery) : One topic at a time. i.e. To get good with Anagrams, tackle all Anagram related Qs
 - Strategy 2 (Familiar) : Devise a method for the problem, then compare solutions. Code problem when unfamiliar
 - Strategy 3 (Motivate) : Knockout as many problems possible to get the ball rolling
-- Currently knocking out Leetcode problems. Done so far : 10
 
 
 ## Problem Bank
