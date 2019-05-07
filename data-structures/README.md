@@ -1,4 +1,4 @@
-# data structures
+# Data Structures
 Personal notes on data structure methods and definitions.
 
 ## Articles
