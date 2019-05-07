@@ -11,7 +11,6 @@ Mastering fundamental data structures and algorithms by solving something daily.
 ## Problem Bank
 - [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
-- [HackerRank Interview Prep](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 - [Algo Expert 65+ Qs with video solutions](https://www.algoexpert.io/)
 - [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
@@ -25,15 +24,16 @@ Dictionaries and Hashmaps | 40
 Sorting | 40 
 String Manipulation | 40
 Greedy Algorithms | 31
-Search | 30%
+Search | 30
 Dynamic Programming | 27
 Stacks and Queues | 17
 Graphs | 15
 Trees | 12
 Linked Lists | 8
 Recursion and Backtracking | 5
-Miscellaneous <5
+Miscellaneous | <5
 
+Source : [HackeRank](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback) 
 
 
 ## Takeaways
