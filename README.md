@@ -42,7 +42,7 @@ Source : [HackeRank](https://www.hackerrank.com/interview/interview-preparation-
 - Neat one-liner condition statement **int result = a > b ? x : y;**
 - Override is prioritizing local methods over parent methods
 - Overload is methods with same names different parameters
-- Strings are immutable. Once defined, specific locations in string can't be changed. i.e. "wewr" change the first 'w' to 'K'
+- Strings are immutable. i.e. In "wewr" the first 'w' can't be changed to 'K'
 - int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
 
 
