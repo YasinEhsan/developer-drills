@@ -46,7 +46,7 @@ Source : [HackeRank](https://www.hackerrank.com/interview/interview-preparation-
 - int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
 
 
-## Ulimate Cheatsheet
+## The Ultimate Technical Interview Guide
 
 ### **Array**
 #### Definition:
