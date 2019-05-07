@@ -17,24 +17,22 @@ Mastering fundamental data structures and algorithms by solving something daily.
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 
 ## What to Prep
-1. __Arrays__ 70% of companies test this subject
-2. __Dictionaries and Hashmaps__ 40% of companies test this subject
-3. __Sorting__ 40% of companies test this subject
-4. __String Manipulation__ 40% of companies test this subject
-5. __Greedy Algorithms__ 31% of companies test this subject
-6. __Search__ 30% of companies test this subject
-7. __Dynamic Programming__ 27% of companies test this subject
-8. __Stacks and Queues__ % of companies test this subject
-9. ____ % of companies test this subject
-10. ____ % of companies test this subject
-11. ____ % of companies test this subject
-12. ____ % of companies test this subject
-13. ____ % of companies test this subject
 
 Topics | % of companies test this subject
 --- | ---
-__Arrays__ | 70%
-
+Arrays| 70
+Dictionaries and Hashmaps | 40
+Sorting | 40 
+String Manipulation | 40
+Greedy Algorithms | 31
+Search | 30%
+Dynamic Programming | 27
+Stacks and Queues | 17
+Graphs | 15
+Trees | 12
+Linked Lists | 8
+Recursion and Backtracking | 5
+Miscellaneous <5
 
 
 
