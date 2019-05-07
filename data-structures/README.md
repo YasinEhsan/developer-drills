@@ -6,7 +6,7 @@ Personal notes on data structure methods and definitions.
 - [Commonly Asked Data Structure Interview Questions](https://www.geeksforgeeks.org/commonly-asked-data-structure-interview-questions-set-1/)
 - [Top 10 Algorithms and Data Structures for Competitive Programming](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
 - [Collections in Java](https://www.geeksforgeeks.org/collections-in-java-2/)
-
+1
 
 ## Takeaways
 ### Collections v Data Structures 
@@ -14,4 +14,5 @@ Personal notes on data structure methods and definitions.
 - The Collection interface **(java.util.Collection)** and Map interface **(java.util.Map)** are the two main “root” interfaces of Java collection classes.
 
 ## Visuals
-- ![Dope Data-Structure flowchart](../dump/pics/flow-collect.png)
+![Dope Data-Structure interfaces](../dump/pics/flow-collect.png)
+![Dope Data-Structure primitives](../dump/pics/flow-purple.jpg)

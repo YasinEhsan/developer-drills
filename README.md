@@ -37,7 +37,7 @@ Source : [HackeRank](https://www.hackerrank.com/interview/interview-preparation-
 
 
 ## Takeaways
-- ![Dope Data-Structure flowchart](/dump/pics/flow-purple.jpg)
+- Popular ascii refrences : 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90 | '0' = 48 | '9' = 57.
 - **.Equals()** compares objects | **.compareTo** finds lexicographic difference | **==** checks memory address
 - Neat one-liner condition statement **int result = a > b ? x : y;**
 - Override is prioritizing local methods over parent methods
