@@ -2,6 +2,7 @@
 Personal notes on data structure methods and definitions.
 
 ## Articles
+- [Top 50 Programming Interview Questions](https://simpleprogrammer.com/programming-interview-questions/)
 - [Commonly Asked Data Structure Interview Questions](https://www.geeksforgeeks.org/commonly-asked-data-structure-interview-questions-set-1/)
 - [Top 10 Algorithms and Data Structures for Competitive Programming](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
 - [Collections in Java](https://www.geeksforgeeks.org/collections-in-java-2/)
