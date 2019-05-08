@@ -1,5 +1,5 @@
 # leetcode
 
 ### status 
-- Solved : 10 
-- Attempted : 11
+- Solved : 15
+- Attempted : 12
