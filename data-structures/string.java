@@ -8,6 +8,7 @@ s.lastIndexOf("i"); //returns starting index of last occrence of substring input
 
 char[] c = s.toCharArray(); //convert to char array
 String s2 = new String(c); //convert char array to String
+s.charAt(5); //char at pos 5. 's'
 
 
 }
