@@ -10,6 +10,15 @@ class Solution {
         -  two pointer sol is da move
         */
         
+        int i = 0; //slow runner
+        for(int j = 0; j < nums.length; ++j ){
+            if(nums[j] != val){
+                nums[i] = nums[j]; //skips occernce of val.DN Switch. overwrites
+                i++;
+            }
+            
+        }
+        return i;
         
     }
 }
