@@ -2,6 +2,7 @@ class main{
   public static void main(String[] args){
   
     String[] a = {"eat", "tea", "tan", "ate", "nat", "bat"};
+    String[] copy = a.clone(); //copies a
     
     
     ArrayList<String> store = Arrays.asList(a); //convert array to arraylist
