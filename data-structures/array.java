@@ -9,6 +9,7 @@ class main{
     Arrays.toString(a); // prints all elements in array 
     
     Arrays.fill(a,0); //fill a with 0s
+    Arrays.stream(a).max().getAsInt(); //find max
   }
 
 }
