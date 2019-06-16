@@ -49,7 +49,7 @@ Miscellaneous | <5
 13. Two-Pointer -->
 
 
-## Current Endeavor
+## Current Endeavors
 - *6.17.19* Try to get proffceint in Python beacause it is succint and provides handy shortcuts. i.e. split an array into two at pos 5. Java has been my thing for 3 years since AP class in high school. 
 
 ## Takeaways
