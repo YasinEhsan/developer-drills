@@ -3,19 +3,19 @@ Mastering fundamental data structures and algorithms by solving something daily.
 
 ## Game Plan
 - Preparing for full-time software engineering interview questions
-- Strategy 1 (Mastery) : One topic at a time. i.e. To get good with Anagrams, tackle all Anagram related Qs
-- Strategy 2 (Familiar) : Devise a method for the problem, then compare solutions. Code problem when unfamiliar
-- Strategy 3 (Motivate) : Knockout as many problems possible to get the ball rolling
+- Strategy 1 (Mastery) : One topic at a time. i.e. To get good with linked lists, tackle all linked list related Qs
+- Strategy 2 (Exposure) : Devise a method for the problem, then compare solutions. Code problem when unfamiliar
+- Strategy 3 (Motivate) : Knockout as many doable problems to get the ball rolling. Consistency is 🔑
 
 
 ## Problem Bank
-- [Cracking the Coding Interview, 6th Edition PDF](/cracking-code.pdf)
+- [Cracking the Coding Interview, 6th Edition PDF](/cracking-the-coding-interview-6th-edition.pdf)
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/) 
 - [Algo Expert 65+ Qs with video solutions](https://www.algoexpert.io/)
 - [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 
-## What to Prep
+## What to prep according to [HackeRank](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback) 
 
 Topics | % of companies test this subject
 --- | ---
@@ -33,8 +33,24 @@ Linked Lists | 8
 Recursion and Backtracking | 5
 Miscellaneous | <5
 
-Source : [HackeRank](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback) 
+<!-- ## My goal to familiarize with following data s. and algorithms
+1. Backtracking
+2. DFS
+3. Dynamic Programming
+4. Graph
+5. Hashing
+6. Math
+7. Recursion 
+8. Searching
+9. Segment Tree
+10. Sorting
+11. Stack 
+12. Tree
+13. Two-Pointer -->
 
+
+## Current Endeavor
+- *6.17.19* Try to get proffceint in Python beacause it is succint and provides handy shortcuts. i.e. split an array into two at pos 5. Java has been my thing for 3 years since AP class in high school. 
 
 ## Takeaways
 - Popular ascii refrences : 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90 | '0' = 48 | '9' = 57.
