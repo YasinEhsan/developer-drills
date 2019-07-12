@@ -50,7 +50,7 @@ Miscellaneous | <5
 
 
 ## Current Endeavors
-- *7.12.19* Do intv questions in swift rather than python. I've been working w Swift all day since my capital one internship and personal projects. I think I will soon know more in swift (>1 years) than in Java (>3 years).
+- *7.12.19* Do intv questions in swift rather than python. I've been working w Swift all day since my capital one internship and personal projects. Swift is code succint like python but can also be strong type like java. Litty.
 - *6.17.19* Try to get proffceint in Python beacause it is succint and provides handy shortcuts. i.e. split an array into two at pos 5. Java has been my thing for 3 years since AP class in high school. 
 
 
