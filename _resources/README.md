@@ -1,7 +1,7 @@
 # Resources
 Preparing for interviews? Heres some handy dandy links and cheat-sheets.
 
-- [Cracking the Coding Interview, 6th Edition PDF](/cracking-the-coding-interview-6th-edition.pdf)
+- [Cracking the Coding Interview, 6th Edition PDF](/_resources/cracking-the-coding-interview-6th-edition)
 - [LeetCode 900+ Problem Set](https://leetcode.com/problemset/all/)
 - [Algo Expert 65+ Qs with video solutions](https://www.algoexpert.io/)
 - [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
