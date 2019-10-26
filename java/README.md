@@ -9,10 +9,6 @@ Personal notes on data structure methods and definitions.
 
 
 ## Takeaways
-### Collections v Data Structures 
+### Collections v Data Structures
 - A data structure is how the data is represented inside the storage in memory. A collection is how it **can** be accessed.
 - The Collection interface **(java.util.Collection)** and Map interface **(java.util.Map)** are the two main “root” interfaces of Java collection classes.
-
-## Visuals
-![Dope Data-Structure interfaces](../dump/pics/flow-collect.png)
-![Dope Data-Structure primitives](../dump/pics/flow-purple.jpg)
