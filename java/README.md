@@ -2,7 +2,28 @@
 Java syntax and semantics.
 
 
-## array
+* [dump](#dump)
+* [data-structures](#data-structures)
+  + [array](#array)
+  + [hashmap](#hashmap)
+  + [linked-list](#linked-list)
+  + [String](#string)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+## dump
+- Popular ascii refrences : 'a' = 97 | 'z' = 122 | 'A' = 65 | 'Z' = 90 | '0' = 48 | '9' = 57.
+- .Equals() compares objects | .compareTo finds lexicographic difference | == checks memory address
+- Neat one-liner condition statement int result = a > b ? x : y;
+- Override is prioritizing local methods over parent methods
+- Overload is methods with same names different parameters
+- Strings are immutable. i.e. In "wewr" the first 'w' can't be changedto 'K'
+- int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
+- int is a primitive. Integer is a class. int range [-2^31 : 2^31-1]
+
+## data-structures
+### array
 ```java
 String[] a = {"eat", "tea", "tan", "ate", "nat", "bat"};
 String[] copy = a.clone(); //copies a
@@ -18,7 +39,7 @@ Arrays.stream(a).max().getAsInt(); //find max of INT[]
 ```
 
 
-## hashmap
+### hashmap
 ``` java
 HashMap<String, Integer> map = new HashMap<>();  
 map.put("vishal", 10);
@@ -62,7 +83,7 @@ for (String key : map.keySet()) {
 
 ```
 
-## linked-list
+### linked-list
 ```Java
 LinkedList<String> linkedList = new LinkedList<>();
 
@@ -85,7 +106,7 @@ while (i < linkedList.size()) {
 
 ```
 
-## String
+### String
 ```Java
 String s = " This is My string";
 
