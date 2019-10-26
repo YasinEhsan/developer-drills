@@ -1,14 +1,104 @@
-# Data Structures
-Personal notes on data structure methods and definitions.
-
-## Articles
-- [Top 50 Programming Interview Questions](https://simpleprogrammer.com/programming-interview-questions/)
-- [Commonly Asked Data Structure Interview Questions](https://www.geeksforgeeks.org/commonly-asked-data-structure-interview-questions-set-1/)
-- [Top 10 Algorithms and Data Structures for Competitive Programming](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
-- [Collections in Java](https://www.geeksforgeeks.org/collections-in-java-2/)
+# java
+Java syntax and semantics.
 
 
-## Takeaways
-### Collections v Data Structures
-- A data structure is how the data is represented inside the storage in memory. A collection is how it **can** be accessed.
-- The Collection interface **(java.util.Collection)** and Map interface **(java.util.Map)** are the two main “root” interfaces of Java collection classes.
+## array
+```java
+String[] a = {"eat", "tea", "tan", "ate", "nat", "bat"};
+String[] copy = a.clone(); //copies a
+
+
+ArrayList<String> store = Arrays.asList(a); //convert array to arraylist
+Arrays.sort(a); //sort by ascii
+Arrays.toString(a); // prints all elements in array
+
+Arrays.fill(a,0); //fill a with 0s
+Arrays.stream(a).max().getAsInt(); //find max of INT[]
+
+```
+
+
+## hashmap
+``` java
+HashMap<String, Integer> map = new HashMap<>();  
+map.put("vishal", 10);
+map.put("sachin", 30);
+map.put("vaibhav", 20);
+map.isEmpty()); //checks if empty
+
+
+//add new keys or increment existing values
+if(!map.containsKey(key)) {
+ p.put(key,1);
+}
+else {
+ p.put(key, map.getKey()+1);
+}
+
+
+//update value given key
+    map.put(key, map.get(key) + 1);
+
+
+    //If you're only interested in the keys, you can iterate through the keySet() of the map:
+    Map<String, Object> map = ...;
+for (String key : map.keySet()) {
+// ...
+    }
+
+
+    //If you only need the values, use values():
+    for (Object value : map.values()) {
+  // ...
+    }
+
+
+    //Finally, if you want both the key and value, use entrySet():
+    for (Map.Entry<String, Object> entry : map.entrySet()) {
+  String key = entry.getKey();
+  Object value = entry.getValue();
+  // ...
+    }
+
+```
+
+## linked-list
+```Java
+LinkedList<String> linkedList = new LinkedList<>();
+
+//4 WAYS LOOP THRU A LIST
+for (int i = 0; i < linkedList.size(); i++)
+ System.out.println(linkedList.get(i));
+
+for (String temp : linkedList)
+ System.out.println(temp);
+
+Iterator<String> iterator = linkedList.iterator();
+while (iterator.hasNext())
+   System.out.println(iterator.next());
+
+int i = 0;
+while (i < linkedList.size()) {
+   System.out.println(linkedList.get(i));
+   i++;
+}
+
+```
+
+## String
+```Java
+String s = " This is My string";
+
+int n = 787;  
+s = Integer.toString(n); //converts int to string
+n = (int) Integer.valueOf(s); //converts string to int
+
+s.trim(); //remove leading and trailing spaces
+s.indexOf("i"); //returns starting index of first occrence of substring input
+s.lastIndexOf("i"); //returns starting index of last occrence of substring input
+
+char[] c = s.toCharArray(); //convert to char array
+String s2 = new String(c); //convert char array to String
+s.charAt(5); //char at pos 5. 's'
+
+```
