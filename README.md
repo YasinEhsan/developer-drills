@@ -1,4 +1,4 @@
-# technical-bank-2020
+# developer-drills-2020
 
 
 
