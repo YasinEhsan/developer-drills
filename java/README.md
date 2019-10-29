@@ -8,6 +8,7 @@ Java syntax and semantics.
   + [hashmap](#hashmap)
   + [linked-list](#linked-list)
   + [String](#string)
+  + [Trie](#trie)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -122,4 +123,51 @@ char[] c = s.toCharArray(); //convert to char array
 String s2 = new String(c); //convert char array to String
 s.charAt(5); //char at pos 5. 's'
 
+```
+
+### Trie
+```java
+public class Trie{
+        private class TrieNode{
+            Map<Character,TrieNode> children;
+            boolean isEnd;
+
+            public TrieNode() {
+                children = new HashMap<>();
+                isEnd = false;
+            }
+        }
+
+        public final TrieNode root;
+
+        public Trie(){
+            root = new TrieNode();
+        }
+
+        public void insert(String s){
+            TrieNode current = root;
+            for(int i = 0; i < s.length(); i++) {
+                char letter = s.charAt(i);
+                TrieNode node = root.children.get(letter);
+                if (node == null)
+                    node.children.put(letter, node);
+                current = node;
+            }
+            current.isEnd = true;
+        }
+
+        public boolean isMember(String s){
+            TrieNode current = root;
+            for(int i = 0; i < s.length(); i++) {
+                char letter = s.charAt(i);
+                TrieNode node = root.children.get(letter);
+                if (node == null)
+                    return false;
+                current = node;
+            }
+            return current.isEnd;
+        }
+
+
+    }
 ```
