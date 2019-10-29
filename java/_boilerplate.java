@@ -1,11 +1,11 @@
 /* 
 Yasin Ehsan
-Coding Workouts 
+Coding Workouts
 
 */
 
 import java.util.*; // i.e Arrays.sort
-import java.io.*; 
+import java.io.*;
 public class {
      /*QUESTION
       */
@@ -13,14 +13,14 @@ public class {
         System.out.println("Run Successful!");
     }
     public static void sol(){
-         /* P L A N 
-          -run time approx: 
+         /* P L A N
+          -run time approx:
         */
 
 
         /*FUTURE ITERATION
         */
-        
+
     }
-   
+
 }
