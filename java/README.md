@@ -39,6 +39,18 @@ Arrays.stream(a).max().getAsInt(); //find max of INT[]
 
 ```
 
+### arraylist
+```Java
+List<Integer> store = new ArrayList<>();
+store.add(1);
+store.addAll(1,2,3); //add multiple elements
+
+int[] ints = {1,2,2,3};
+store = Arrays.asList(ints); //convert array to arraylist
+
+
+```
+
 
 ### hashmap
 ``` java
