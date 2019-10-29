@@ -48,6 +48,8 @@ store.addAll(1,2,3); //add multiple elements
 int[] ints = {1,2,2,3};
 store = Arrays.asList(ints); //convert array to arraylist
 
+store = new ArrayList<>(List.of(1,2,3,4)); //one line init
+
 
 ```
 
