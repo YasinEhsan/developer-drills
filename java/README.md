@@ -4,16 +4,17 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 ## Contents
 1. [Wildcard lookup using tries)](#Wildcard-lookup)
 2. [Count islands / connected graphs using DFS 2D matrix](#Count-islands)
-3. [Maximum contiguous subarray sum using DP](#contiguous-subarray1)
+3. [Maximum contiguous subarray sum using DP (Kadane's Algo.)](#contiguous-subarray1)
+4. []
 
 
 ### contiguous-subarray1
 - **Problem** Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 - **Ask 3 Qs.** is there 0? is there negative #? account for overflow?
 - **Complexity** time, space: O(n), O(1)
-  + [Go to Code]()
+  + [Go to Code](contiguous-subarray1.java)
   + [Youtube Vid](https://www.youtube.com/watch?v=2MmGzdiKR9Y)
-  - [[]()eetcode](https://leetcode.com/problems/maximum-subarray/)
+  - [Leetcode](https://leetcode.com/problems/maximum-subarray/)
 
 ### Count-islands
 - **Problem** Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
