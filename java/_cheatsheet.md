@@ -56,29 +56,29 @@ store = new ArrayList<>(List.of(1,2,3,4)); //one line init
 
 ### hashmap
 ``` java
-HashMap<String, Integer> map = new HashMap<>();  
-map.put("vishal", 10);
-map.put("sachin", 30);
-map.put("vaibhav", 20);
-map.isEmpty()); //checks if empty
+    HashMap<String, Integer> map = new HashMap<>();  
+    map.put("vishal", 10);
+    map.put("sachin", 30);
+    map.put("vaibhav", 20);
+    map.isEmpty()); //checks if empty
 
 
-//add new keys or increment existing values
-if(!map.containsKey(key)) {
- p.put(key,1);
-}
-else {
- p.put(key, map.getKey()+1);
-}
+    //Create new pair or increment existing
+    if(!map.containsKey(key)) {
+     map.put(key,1);
+    }
+    else {
+     map.put(key, map.get(key)+1);
+    }
 
+    //neat one liner to do above
+    map.put(String, map.getOrDefault(String,0)+ 1);
 
-//update value given key
-    map.put(key, map.get(key) + 1);
 
 
     //If you're only interested in the keys, you can iterate through the keySet() of the map:
     Map<String, Object> map = ...;
-for (String key : map.keySet()) {
+    for (String key : map.keySet()) {
 // ...
     }
 
