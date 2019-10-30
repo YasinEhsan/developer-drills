@@ -13,22 +13,22 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 - **Problem** Determine if any 3 integers in an array sum to 0.
 - **Clarifying Qs.** overflow? space time restrictions?
 - **Complexity** O(n^2)/O(1)
-- [View Code](3sum1.java)
-- [Dope Explanation](https://leetcode.com/problems/3sum/discuss/304552/O(n2)-time-O(1)-space-solution)
+  - [View Code](3sum1.java)
+  - [Dope Explanation](https://leetcode.com/problems/3sum/discuss/304552/O(n2)-time-O(1)-space-solution)
 
 ### total-contiguous-subarray
 - **Problem** Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 - **Clarifying Qs.** zero? pos neg? overflow?
 - **Complexity** n for both
-- [Go to Code](total-contiguous-subarray.java)
-- [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/)
+  - [Go to Code](total-contiguous-subarray.java)
+  - [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ### contiguous-subarray2
 - **Problem** Given an array of unsorted integers and a integer target, return true if a contiguous subarray sums up to the integer target. Otherwise, return false
 - **Clarifying Qs.** pos negative?
 - **Complexity** n for both
-- [Go to Code](contiguous-subarray2.java)
-- [Youtube Vid](https://www.youtube.com/watch?v=HJDlxZNe1UI)
+  - [Go to Code](contiguous-subarray2.java)
+  - [Youtube Vid](https://www.youtube.com/watch?v=HJDlxZNe1UI)
 
 ### contiguous-subarray1
 - **Problem** Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -57,5 +57,5 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 - **Problem**
 - **Clarifying Qs.**
 - **Complexity**
-- [View Code]()
-- [Dope Youtube]()
+  + [View Code]()
+  + [Dope Youtube]()
