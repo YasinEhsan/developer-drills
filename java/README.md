@@ -1,5 +1,5 @@
 # java
-Catalog of interview questions in Java. [Here](_java-cheatsheet.md) is a one stop shop for Java data structures, algorithms, semantics and syntax.
+Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop shop for Java data structures, algorithms, semantics and syntax.
 
 ## Problem Dump
 1. [Wildcard lookup using tries](#Wildcard-lookup)
