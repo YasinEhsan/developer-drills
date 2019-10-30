@@ -25,6 +25,9 @@ Java syntax and semantics.
 - int is a primitive. Integer is a class. int range [-2^31 : 2^31-1]
 - merge sort and heapsort are O(nlogn) run time Quicksort is O(n^2)
 - space complexity: heapsort O(1) mergeSort(n)
+<br><br>
+- takes log(n) to look up number in arr. log(n-1) to look up the next
+- log(n!) for all. nLogn is the fastest single process sorting time [video](https://www.youtube.com/watch?v=4Q72kbwyEmk)
 
 ## data-structures
 ### array
