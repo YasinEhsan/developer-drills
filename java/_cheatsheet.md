@@ -19,9 +19,12 @@ Java syntax and semantics.
 - Neat one-liner condition statement int result = a > b ? x : y;
 - Override is prioritizing local methods over parent methods
 - Overload is methods with same names different parameters
+<br><br>
 - Strings are immutable. i.e. In "wewr" the first 'w' can't be changedto 'K'
 - int randomWithRange = (int)(MATH.random()(max - min + 1)) + min
 - int is a primitive. Integer is a class. int range [-2^31 : 2^31-1]
+- merge sort and heapsort are O(nlogn) run time Quicksort is O(n^2)
+- space complexity: heapsort O(1) mergeSort(n)
 
 ## data-structures
 ### array

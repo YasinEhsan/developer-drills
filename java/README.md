@@ -4,7 +4,7 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 ## Contents
 1. [Wildcard lookup using tries)](#Wildcard-lookup)
 2. [Count islands / connected graphs using DFS 2D matrix](#Count-islands)
-3. [Maximum contiguous subarray sum using DP (Kadane's Algo.)](#contiguous-subarray1)
+3. [Maximum contiguous subarray sum using DP (Kadane's Alg.)](#contiguous-subarray1)
 4. [Single Contiguous subarray given sum k using hashmap](#contiguous-subarray2)
 5. [Total Contiguous subarray given sum k using hashmap](#total-contiguous-subarray)
 
