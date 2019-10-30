@@ -5,8 +5,14 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 1. [Wildcard lookup using tries)](#Wildcard-lookup)
 2. [Count islands / connected graphs using DFS 2D matrix](#Count-islands)
 3. [Maximum contiguous subarray sum using DP (Kadane's Algo.)](#contiguous-subarray1)
-4. []
+4. [Single Contiguous subarray given sum k using hashmap](#contiguous-subarray2)
 
+### contiguous-subarray2
+- **Problem** Given an array of unsorted integers and a integer target, return true if a contiguous subarray sums up to the integer target. Otherwise, return false
+- **Clarifying Qs.** pos negative?
+- **Complexity** n for both
+- [Go to Code](contiguous-subarray2.java)
+- [Youtube Vid](https://www.youtube.com/watch?v=HJDlxZNe1UI)
 
 ### contiguous-subarray1
 - **Problem** Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
