@@ -6,6 +6,14 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 2. [Count islands / connected graphs using DFS 2D matrix](#Count-islands)
 3. [Maximum contiguous subarray sum using DP (Kadane's Algo.)](#contiguous-subarray1)
 4. [Single Contiguous subarray given sum k using hashmap](#contiguous-subarray2)
+5. [Total Contiguous subarray given sum k using hashmap](#total-contiguous-subarray)
+
+### total-contiguous-subarray
+- **Problem** Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+- **Clarifying Qs.** zero? pos neg? overflow?
+- **Complexity** n for both
+- [Go to Code](total-contiguous-subarray.java)
+- [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ### contiguous-subarray2
 - **Problem** Given an array of unsorted integers and a integer target, return true if a contiguous subarray sums up to the integer target. Otherwise, return false
