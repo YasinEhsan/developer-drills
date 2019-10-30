@@ -7,6 +7,14 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 3. [Maximum contiguous subarray sum using DP (Kadane's Alg.)](#contiguous-subarray1)
 4. [Single Contiguous subarray given sum k using hashmap](#contiguous-subarray2)
 5. [Total Contiguous subarray given sum k using hashmap](#total-contiguous-subarray)
+6. [3 numbers equal to 0 w duplicates using two pointers](#3sum1)
+
+### 3sum1
+- **Problem** Determine if any 3 integers in an array sum to 0.
+- **Clarifying Qs.** overflow? space time restrictions?
+- **Complexity** O(n^2)/O(1)
+- [View Code](3sum1.java)
+- [Dope Explanation](https://leetcode.com/problems/3sum/discuss/304552/O(n2)-time-O(1)-space-solution)
 
 ### total-contiguous-subarray
 - **Problem** Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
@@ -49,5 +57,5 @@ Catalog of interview questions in Java. [Here](_cheatsheet.md) is a one stop sho
 - **Problem**
 - **Clarifying Qs.**
 - **Complexity**
-- [Go to Code]()
-- [Youtube Vid]()
+- [View Code]()
+- [Dope Youtube]()

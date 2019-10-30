@@ -49,9 +49,9 @@ store.add(1);
 store.addAll(1,2,3); //add multiple elements
 
 int[] ints = {1,2,2,3};
-store = Arrays.asList(ints); //convert array to arraylist
+store = Arrays.asList(ints); //convert array to arraylist (for outside init)
 
-store = new ArrayList<>(List.of(1,2,3,4)); //one line init
+store = new ArrayList<>(List.of(1,2,3,4)); //one line new init ONLY
 
 
 ```
