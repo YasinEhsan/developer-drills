@@ -5,6 +5,7 @@ Java syntax and semantics.
 * [dump](#dump)
 * [data-structures](#data-structures)
   + [array](#array)
+  + [arraylist](#arraylist)
   + [hashmap](#hashmap)
   + [linked-list](#linked-list)
   + [String](#string)
@@ -34,16 +35,15 @@ Java syntax and semantics.
   + postorder L R **N**
 - level order is finding adj vertex from current vertex first. many permutations
 <br><br>
-- BFS is level order use Queue to store vertices and hashmap for visited
-- DFS is pre order traversal use stack for storage and map for visited
 
 DFS | BFS
 --- | ---
 Pre-order| level order
-Stack | Queue
-Backtracking | Visited storage
+Stack (LIFO)| Queue (FIFO)
+Backtracking | Visited storage hash/matrix
 one child pointer | k child pointers
 less space | more space
+O(vertices)/O(depth) | O(vertices)/O(vertices)
 
 
 ## data-structures
