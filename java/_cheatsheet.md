@@ -37,6 +37,14 @@ Java syntax and semantics.
 - BFS is level order use Queue to store vertices and hashmap for visited
 - DFS is pre order traversal use stack for storage and map for visited
 
+DFS | BFS
+--- | ---
+Pre-order| level order
+Stack | Queue
+Backtracking | Visited storage
+one child pointer | k child pointers
+less space | more space
+
 
 ## data-structures
 ### array
