@@ -70,6 +70,7 @@ store.addAll(1,2,3); //add multiple elements
 
 int[] ints = {1,2,2,3};
 store = Arrays.asList(ints); //convert array to arraylist (for outside init)
+store.remove(0); //removes 1
 
 store = new ArrayList<>(List.of(1,2,3,4)); //one line new init ONLY
 
@@ -150,22 +151,26 @@ while (i < linkedList.size()) {
   + 2-tuple is a called Pair<A,B> (2 elements)
   + 3-tuple is called Triplet<A,B,C> (3 elements)
   + 4-tuple Quartet<A,B,C,D> (4 elements) etc
+- unlike swift, in java tuples are immutable. sucks!
 ```Java
 //two way of init
 Pair<Integer, String> pair
 = new Pair<Integer, String>(Integer.valueOf(1), "GeeksforGeeks");
 
-Pair<Integer, String> pair2
-            = Pair.with(Integer.valueOf(1), "GeeksforGeeks");
+Pair<Integer, String> pair2 = Pair.with(Integer.valueOf(1), "GeeksforGeeks");
 
 pair.getValue0() //returns 1
 pair.getValue1() //returns GeeksforGeeks
 
-Triplet<Integer, String, String> triplet
-            = pair.addAt2("A computer portal"); //turing pair to Triplet
+boolean exist = pair.contains("GeeksforGeeks"); //true
+boolean exist1 = pair.contains(4); //false
 
-boolean exist = pair.contains("GeeksforGeeks");
-boolean exist1 = pair.contains(4); 
+Triplet<Integer, String, String> triplet = pair.addAt2("A computer portal"); //turing pair to Triplet
+
+  // Using add() to create Quartet
+Quartet<String, String, String, String> quartet = triplet.add("Quartet 1");
+
+
 
 ```
 
