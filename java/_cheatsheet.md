@@ -144,6 +144,31 @@ while (i < linkedList.size()) {
 
 ```
 
+### tuples
+**Notes**
+- in java the concepts of n-tuples is specific.
+  + 2-tuple is a called Pair<A,B> (2 elements)
+  + 3-tuple is called Triplet<A,B,C> (3 elements)
+  + 4-tuple Quartet<A,B,C,D> (4 elements) etc
+```Java
+//two way of init
+Pair<Integer, String> pair
+= new Pair<Integer, String>(Integer.valueOf(1), "GeeksforGeeks");
+
+Pair<Integer, String> pair2
+            = Pair.with(Integer.valueOf(1), "GeeksforGeeks");
+
+pair.getValue0() //returns 1
+pair.getValue1() //returns GeeksforGeeks
+
+Triplet<Integer, String, String> triplet
+            = pair.addAt2("A computer portal"); //turing pair to Triplet
+
+boolean exist = pair.contains("GeeksforGeeks");
+boolean exist1 = pair.contains(4); 
+
+```
+
 ### String
 ```Java
 String s = " This is My string";
