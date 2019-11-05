@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=TIbUeeksXcI
+
+
 class Node{
         int x;
         List<Node> adj = new ArrayList<>();
@@ -30,3 +33,4 @@ class Node{
                 }
             }
         }
+      }
