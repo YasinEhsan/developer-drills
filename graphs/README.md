@@ -1,12 +1,18 @@
-# graphs
+# Graphs
 Problems and notes on sub-topic graphs.
 
-## basics
+## Basics
 - Graphs can be represented using objects an pointers(node/vertex), edge list, adjacency list, adjacency matrix, incidence matrix, incidence list or adjacency sets
 - Commonly used are **adjacency matrix** and **adjacency list**
-
-
 - Each graph problem is some version of a DFS / BFS traversal
+
+Action | Matrix | List
+---| --- | ---
+Find connected vertices | O(V) | O(E)
+Find two vertices are connected | O(1) | O(E)
+Memory usage | O(V^2) | O(V + E)
+
+
 
 
 
