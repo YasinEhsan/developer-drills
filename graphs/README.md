@@ -2,8 +2,12 @@
 Problems and notes on sub-topic graphs.
 
 ## basics
-- the adjacency list of a graph can be represented using an adjacency list, adjacency matrix, incidence matrix, incidence list and adjacency sets
-- each have its pros and cons and used relative to problem. Commonly used are **adjacency matrix** and **adjacency list**
+- Graphs can be represented using objects an pointers(node/vertex), edge list, adjacency list, adjacency matrix, incidence matrix, incidence list or adjacency sets
+- Commonly used are **adjacency matrix** and **adjacency list**
+
+
+- Each graph problem is some version of a DFS / BFS traversal
+
 
 
 

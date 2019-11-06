@@ -1,38 +1,36 @@
-https://www.youtube.com/watch?v=TIbUeeksXcI
+// https://www.youtube.com/watch?v=TIbUeeksXcI
 
-    class Node{
+
+class Node{
         int x;
         List<Node> adj = new ArrayList<>();
     }
 
-    public void bfsPrint(Node start){
+    public void dfsPrint(Node start){
         /*plan
-            - use queue
+            - use cal stack or create a stack
             - store visited nodes in hashset
             - loop while stack contains
-                - poll queue and save to cur
+                - pop stack and save to cur
                 - if curr is not in visted add it print it
                 - loop thru adjecy matrix
                 - if not visited add it to stack
          */
 
-        Queue<Node> queue = new LinkedList<>();
+        Stack<Node> stack = new Stack<>();
         Set<Node> visited = new HashSet<>();
-        queue.add(start);
 
-        while (!queue.isEmpty()){
-            Node curr = queue.poll();
+        stack.push(start);
+        while (!stack.isEmpty()){
+            Node curr = stack.pop();
             if(!visited.contains(curr)){
                 visited.add(curr);
                 //do something
             }
-
-            for(Node adjacent : curr.adj){
-                if(!visited.contains(adjacent)){
-                    queue.add(adjacent);
+            for(Node n: curr.adj){
+                if(!visited.contains(n)){
+                    stack.push(n);
                 }
             }
         }
-
-
-    }
+      }
