@@ -22,6 +22,25 @@ one child pointer | k child pointers
 less space | more space
 O(vertices)/O(depth) | O(vertices)/O(vertices)
 
+Prim's Algorithm | Dijkstra's Algorithm
+--- | ---
+Finds minimum spanning tree (MST) | Finds shortest path tree (SPT)
+Works only for undirected graphs | Works for both
+Can handle negative edge costs | Cannot
+path links all vertices | path from source to destination vertex
+think least electricity | think least amount of GPS travel
+
+- A SPT of a graph with weights = 1 is same as BFS path of the graph
+- Dijkstra's algorithm doesn't create a MST, it finds the shortest path.
+```Java
+     5     5
+s *-----*-----* t
+     \         /
+       -------
+          9
+```
+- **The shortest path is 9, while the MST is a different 'path' at 10.**
+
 
 ## Questions
 1. If bfs/dfs is iteratively traversed will it find all vertices in a disjoint graph?
@@ -51,6 +70,7 @@ public class Graph{
 
 ## Definitions
 - **Directed acyclic graph (D.A.G.)** intuitive use topological sort
+- **Spanning Tree** path of a non-disjoint graph that connects all vertices
 - **Minimum spanning tree** : connect all vertices with the least amount of total weight. Use Prims or Kruskal's Alg.
 - **Complete Graph** each vertex is connected to all the other vertices
 
