@@ -24,7 +24,7 @@ O(vertices)/O(depth) | O(vertices)/O(vertices)
 
 
 ## Questions
-1. If bfs/dfs if iteratively traversed will it find all vertices in a disjoint graph?
+1. If bfs/dfs is iteratively traversed will it find all vertices in a disjoint graph?
   + if given a node as param then you can find all paths connected to that nodes. you can only do that. i.e. only that disjoint part.
   + if given adjList or graph then you can use recursion over each vertex. Is it possible to iteratively traverse graph given adjList?
 

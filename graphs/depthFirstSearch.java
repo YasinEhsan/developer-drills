@@ -1,4 +1,4 @@
-//DFS RECURSIVE (pathrise implementation)
+//DFS RECURSIVE GIVEN ADJLIST(pathrise implementation)
 public class Node{
         int value;
         LinkedList<Node> neighbors;
