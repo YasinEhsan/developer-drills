@@ -21,11 +21,15 @@ class Node{
 
         while (!queue.isEmpty()){
             Node curr = queue.poll();
-            if(!visited.contains(curr))
+            if(!visited.contains(curr)){
                 visited.add(curr);
+                //do something
+            }
 
-            for(Node adjacent : curr.adj)
-                if(!visited.contains(adjacent))
+            for(Node adjacent : curr.adj){
+                if(!visited.contains(adjacent)){
                     queue.add(adjacent);
+                }
+            }
         }
     }

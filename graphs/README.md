@@ -13,6 +13,14 @@ Find two vertices are connected | O(1) | O(E)
 Memory usage | O(V^2) | O(V + E)
 
 
+DFS | BFS
+--- | ---
+Pre-order tree traversal | level order tree traversal
+Stack (LIFO)| Queue (FIFO)
+Backtracking | Visited storage hash/matrix
+one child pointer | k child pointers
+less space | more space
+O(vertices)/O(depth) | O(vertices)/O(vertices)
 
 
 
@@ -47,3 +55,5 @@ public class Graph{
 ## links
 - [Pathrise Framework](https://fellows.pathrise.com/knowledge/workshops/graph-fundamentals)
 - [GeeksforGeeks graph representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+- [back to back swe dfs](https://www.youtube.com/watch?v=TIbUeeksXcI)
+- []
