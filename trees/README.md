@@ -6,4 +6,4 @@ Notes on subtopic trees.
   + preorder  **N** L R
   + inorder   L **N** R
   + postorder L R **N**
-- level order is finding adj vertex from current vertex first. many permutations
+- level order is finding adj vertex from current vertex first. many permutations. can use bfs with parameter as starting node or root. 
