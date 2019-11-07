@@ -29,21 +29,8 @@ Java syntax and semantics.
 <br><br>
 - takes log(n) to look up number in arr. log(n-1) to look up the next
 - log(n!) for all. nLogn is the fastest single process sorting time [video](https://www.youtube.com/watch?v=4Q72kbwyEmk)
-- Tree traversal sequence visual. N(print) pos based on seq. Fill in L / R
-  + preorder  **N** L R
-  + inorder   L **N** R
-  + postorder L R **N**
-- level order is finding adj vertex from current vertex first. many permutations
-<br><br>
 
-DFS | BFS
---- | ---
-Pre-order| level order
-Stack (LIFO)| Queue (FIFO)
-Backtracking | Visited storage hash/matrix
-one child pointer | k child pointers
-less space | more space
-O(vertices)/O(depth) | O(vertices)/O(vertices)
+
 
 
 ## data-structures
