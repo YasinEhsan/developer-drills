@@ -5,6 +5,7 @@ Problems and notes on sub-topic graphs.
 - Graphs can be represented using objects an pointers(node/vertex), edge list, adjacency list, adjacency matrix, incidence matrix, incidence list or adjacency sets
 - Commonly used are **adjacency matrix** and **adjacency list**
 - Each graph problem is some version of a DFS / BFS traversal
+- Assume vertices are labeled consecutively 0,1,2,3...
 
 Action | Adjacency Matrix | Adjacency List
 ---| --- | ---
@@ -30,6 +31,7 @@ Can handle negative edge costs | Cannot
 path links all vertices | path from source to destination vertex
 think least electricity | think least amount of GPS travel
 
+- Complexity for above: O(V^2) matrix, O(ELogV) binary heap, O(E + VLogV) fibonacci heap
 - A SPT of a graph with weights = 1 is same as BFS path of the graph
 - Dijkstra's algorithm doesn't create a MST, it finds the shortest path.
 ```Java
