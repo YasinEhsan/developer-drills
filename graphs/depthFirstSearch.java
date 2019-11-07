@@ -1,4 +1,4 @@
-//DFS RECURSIVE
+//DFS RECURSIVE (pathrise implementation)
 public class Node{
         int value;
         LinkedList<Node> neighbors;
@@ -19,6 +19,7 @@ public class Node{
         */
     public void dfs(LinkedList<Node>[] adjList){
         Set<Integer> visited = new HashSet<>();
+
         for(LinkedList<Node> node: adjList){
             Node curr = node.getFirst();
             if(!visited.contains(curr)){
@@ -42,7 +43,7 @@ public class Node{
 
 
 
-//DFS ITERATIVE
+//DFS ITERATIVE (back to back swe)
 class Node{
         int x;
         List<Node> adj = new ArrayList<>();
