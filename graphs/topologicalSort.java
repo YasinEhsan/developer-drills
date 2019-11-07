@@ -35,6 +35,8 @@ public void topSort(Graph graph){
 
     for(int vertex = 0; vertex < graph.V; vertex++){
         //graph.adjList[vertex] is a linkedlist w first position being the vertex
+        //also assuming graph w vertices of random numbers i.e. 67 923 98
+        //if vertexs of graph are nice ordered like 0,1,2,3 visted.contains(vertex)
         if(!visited.contains(graph.adjList[vertex].getFirst())){
             topSortUtil(stack, vertex, visited, graph);
         }
