@@ -4,8 +4,11 @@ Problems and notes on sub-topic graphs.
 ## Basics
 - Graphs can be represented using objects an pointers(node/vertex), edge list, adjacency list, adjacency matrix, incidence matrix, incidence list or adjacency sets
 - Commonly used are **adjacency matrix** and **adjacency list**
-- Each graph problem is some version of a DFS / BFS traversal
+- Valid analogy: *vertices* are # Facebook users (~2B) while *edges* are total # of friends each user has (~300B)
+</br></br>
 - Assume vertices are labeled consecutively 0,1,2,3...
+- Each graph problem is some version of a DFS / BFS traversal
+
 
 Action | Adjacency Matrix | Adjacency List
 ---| --- | ---
