@@ -40,9 +40,9 @@ think least electricity | think least amount of GPS travel
 ```Java
      5     5
 s *-----*-----* t
-     \         /
-       -------
-          9
+   \         /
+     -------
+        9
 ```
 - **The shortest path is 9, while the MST is a different 'path' at 10.**
 
