@@ -8,6 +8,11 @@ Problems and notes on sub-topic graphs.
 </br></br>
 - Assume vertices are labeled consecutively 0,1,2,3...
 - Each graph problem is some version of a DFS / BFS traversal
+- Four properties of a graph to consider before choosing data structure representation
+  1. Strongly connected or disjoint connected components ?
+  2. Are edges directed or un-directed ?
+  3. Do edges have weights or no weights ?
+  4. Are the weights unique ? (Could use set to track visited vertices)
 
 
 Action | Adjacency Matrix | Adjacency List
