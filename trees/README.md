@@ -13,6 +13,7 @@ Notes on subtopic trees.
 - for graphs/tree questions bring up bfs dfs and costs for each + bottom-up vs top-down
 
 ## Questions
+1. For dfs traversals does left/right right/left matter? esp w pre/post-order?
 ## Snippets
 ```java
 public class Node {
