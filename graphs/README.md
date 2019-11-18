@@ -2,7 +2,7 @@
 Problems and notes on sub-topic graphs.
 
 ## Common Problems
-1. Clone Graph 
+1. Clone Graph
 
 ## Basics
 - Graphs can be represented using objects an pointers(node/vertex), edge list, adjacency list, adjacency matrix, incidence matrix, incidence list or adjacency sets
@@ -27,7 +27,7 @@ Memory usage | O(V^2) | O(V + E)
 
 Depth First Search | Breadth First Search
 --- | ---
-Pre-order tree traversal | level order tree traversal
+Pre/in/post-order tree traversal | level order tree traversal
 Stack (LIFO)| Queue (FIFO)
 Backtracking | Visited storage hash/matrix
 one child pointer | k child pointers
