@@ -46,3 +46,5 @@ public class Node {
 - subtree, child nodes, leaves
 
 ## Links
+- [techiedelight](https://www.techiedelight.com/preorder-tree-traversal-iterative-recursive/)
+- [pathrise binary trees](https://fellows.pathrise.com/knowledge/workshops/binary-trees-technical-workshop)

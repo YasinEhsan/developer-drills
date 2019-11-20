@@ -23,3 +23,8 @@ public void preOrder(Node root){
       preOrder(root.left);
       preOrder(root.right);
   }
+
+/* links
+https://www.techiedelight.com/preorder-tree-traversal-iterative-recursive/
+
+*/
