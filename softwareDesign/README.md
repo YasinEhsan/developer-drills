@@ -10,6 +10,7 @@ To get the extra edge at interviews.
 - OSI vs TCP
 - ML flaw: there is a black box in neural nets to when the result is wrong w don't k
 - binary semifores and locks thread max cap
+- auxliray space vs reg space heap and stack in RAM
 
 
 
