@@ -6,15 +6,17 @@ public void inOrder(Node root){
     while (!stack.isEmpty() || curr != null){
         if(curr == null){
             stack.push(curr);
-            curr = curr.right;
+            curr = curr.left;
         }
         else {
             stack.pop();
             //do something
-            curr = curr.left;
+            curr = curr.right;
         }
     }
 }
+
+
 
 
 
