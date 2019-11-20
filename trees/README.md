@@ -14,6 +14,7 @@ Notes on subtopic trees.
 
 ## Questions
 1. For dfs traversals does left/right right/left matter? esp w pre/post-order?
+
 ## Snippets
 ```java
 public class Node {
@@ -41,5 +42,7 @@ public class Node {
         }
     }
 ```
-## Definitions
+## Definitions / Jargon
+- subtree, child nodes, leaves
+
 ## Links
