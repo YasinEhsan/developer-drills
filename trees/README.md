@@ -11,6 +11,10 @@ Notes on subtopic trees.
 - whenever hear subtree err to **postorder** nlr bc. you need left and right first (80%)
 - all DFS traversals are bottom-up recursion
 - for graphs/tree questions bring up bfs dfs and costs for each + bottom-up vs top-down
+- BST > Hashing
+  + inOrder() traversal BST keys are sorted
+  + BST is customized where hash the library does the hashing
+  + insert delete search log(n) always for self-balancing BST hash is O(1) average time
 
 ## Questions
 1. For dfs traversals does left/right right/left matter? esp w pre/post-order?
@@ -43,7 +47,7 @@ public class Node {
     }
 ```
 ## Definitions / Jargon
-- subtree, child nodes, leaves
+- subtree, child nodes, leaves, root, height, depth
 
 ## Links
 - [techiedelight](https://www.techiedelight.com/preorder-tree-traversal-iterative-recursive/)

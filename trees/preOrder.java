@@ -10,6 +10,7 @@ public void preOrder(Node root){
 
             if(curr.right == null)
                 stack.push(curr.right);
+                
             if(curr.left == null)
                 stack.push(curr.left);
         }
