@@ -1,16 +1,26 @@
 # Dynamic Programming
-Problems and notes on sub-topic DP.
+Problems and notes on sub-topic dynamic programming or DP.
 
 ## Common Problems
+1. Fibonacci (Classic)
+2. Knapsack (Amazon Truck problem)
 
 ## Basics
-- memoization vs tabulation
-- used when we need previous steps like in fibonacci or all combinations 
+- Always thought that recursion was dope stuff but it isn't
+- DP is an optimization for many recursive, brute-force solutions
+- DP problems appear as: need to calculate all combinations / work from prev. steps (Recursion) / find minimum path or cost
+- DP is to optimize and do less work say if procastination monkey knew how to code
+- We optimize by breaking the problem into subproblems and saving past computations so we don't have to redo them
+
 
 ## Questions
 
 ## Snippets
 
 ## definitions
+- **Optimal Subsequence**
+- **Optimal Substructure**
 
 ## links
+- [What is dynamic Programming GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/#concepts)
+-
