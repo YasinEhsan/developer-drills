@@ -1,5 +1,5 @@
 # Daily Practice
-Practice makes perfect. A folder to catalog my daily attempts at re-calling core algorithms such as the iterative dfs tree traversals from memory.
+Practice makes perfect. A folder to catalog when I re-do interview problems or concepts.
 
 The four axioms of technical assessment are...
 - programming : understand semantics and demonstrated mastery of chosen language
