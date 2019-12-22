@@ -11,7 +11,11 @@ To get the extra edge at interviews.
 - ML flaw: there is a black box in neural nets to when the result is wrong w don't k
 - binary semifores and locks thread max cap
 - auxliray space vs reg space heap and stack in RAM
-- is it better to save space or speed we know speed we have a limit space too bc of cost think startup think bool 
+- is it better to save space or speed we know speed we have a limit space too bc of cost think startup think bool
+- singularity and ai
+- steve jobs vs lean startup
+- seperation and independence
+- delegation vs inheritence 
 
 
 

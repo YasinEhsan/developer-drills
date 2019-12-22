@@ -71,6 +71,7 @@ public void getConnectedComponents(Graph graph, Set<Integer> visited, int vertex
             getConnectedComponents(graph, visited, neighbor, queue);
     }
     queue.add(vertex);
+    // do something here
 }
 
 /*

@@ -33,6 +33,7 @@ public class Node{
     public ArrayList<Integer> getConnectedComponets(Node curr, Set<Integer> visited, ArrayList<Integer> components){
         visited.add(curr.value);
         components.add(curr.value);
+        //do something here
         for(Node connected : curr.neighbors){
             if(!visited.contains(connected)){
                 getConnectedComponets(connected, visited, components);
