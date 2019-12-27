@@ -9,8 +9,8 @@ public void preOrder(Node root){
             //do something w root
 
             if(curr.right == null)
-                stack.push(curr.right);
-                
+                stack.push(curr.right); //right first bc. stack is reverse 
+
             if(curr.left == null)
                 stack.push(curr.left);
         }

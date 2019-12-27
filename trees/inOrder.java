@@ -4,8 +4,8 @@ public void inOrder(Node root){
     Node curr = root;
 
     while (!stack.isEmpty() || curr != null){
-        if(curr == null){
-            stack.push(curr);
+        if(curr != null){
+            stack.push(curr); //push only once***
             curr = curr.left;
         }
         else {
