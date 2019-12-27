@@ -32,7 +32,7 @@ Miscellaneous | <5
 - Strategy 2 (Exposure) : Devise a method for the problem, then compare solutions. Code problem when unfamiliar
 - Strategy 3 (Motivate) : Knockout as many doable problems to get the ball rolling. Consistency is 🔑
 - Strategy 4 (Specific) : Interviewing soon. ROTE memorize recent questions. Find patterns.
-
+- Strategy 5 (PEMDAS): Find balance between frequently asked topics at companies applied to and do problem sets on topics less familiar. In my case, its graphs and DP.
 
 ## The Ultimate Technical Interview Guide
 
