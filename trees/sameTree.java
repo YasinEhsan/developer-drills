@@ -42,3 +42,17 @@ public boolean isSameTree(TreeNode p, TreeNode q) {
          }
          return stack2;
      }
+
+
+  //RECURSIVE
+  public boolean isSameTree(TreeNode p, TreeNode q) {
+       if(p == null || q == null) return p == q;
+       return p.val == q.val &&
+           isSameTree(p.right, q.right) &&
+           isSameTree(p.left, q.left);
+   }
+}
+/**
+  - there are 5 cases: both null, one null (x2), both val same, both val diff
+  - the first if takes care of all null cases neatly in one line
+**/
