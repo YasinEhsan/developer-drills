@@ -1,6 +1,11 @@
-// leet 100
+/**
+- leetcode no. 100
+- iterative sol is 100% faster and 100% less memory on leet
+- my leetcode post : https://leetcode.com/problems/same-tree/discuss/464573/1ms-34.3-mb-%3A-100-faster-and-100-less-memory-than-all-java-submissions
 
-//ITERATIVE 100% faster and 100% less memory on leet
+**/
+
+//ITERATIVE
 public boolean isSameTree(TreeNode p, TreeNode q) {
         Stack<TreeNode> pOrder = postOrder(p);
         Stack<TreeNode> qOrder = postOrder(q);
