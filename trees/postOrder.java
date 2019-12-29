@@ -7,10 +7,10 @@ public void postOrder(Node root){
             Node curr = stack.pop();
             out.push(curr);
 
-            if(curr.left == null)
+            if(curr.left != null)
                 stack.push(curr.left);
 
-            if(curr.right == null)
+            if(curr.right != null)
                 stack.push(curr.right);
 
         }
