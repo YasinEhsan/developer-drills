@@ -172,8 +172,9 @@ s = Integer.toString(n); //converts int to string
 n = (int) Integer.valueOf(s); //converts string to int
 
 s.trim(); //remove leading and trailing spaces
-s.indexOf("i"); //returns starting index of first occrence of substring input
-s.lastIndexOf("i"); //returns starting index of last occrence of substring input
+s.indexOf("i"); //returns starting index of first occurrence of substring input
+s.lastIndexOf("i"); //returns starting index of last occurrence of substring input
+return s.indexOf("is") >= 0; //if occurrence then gucci
 
 char[] c = s.toCharArray(); //convert to char array
 String s2 = new String(c); //convert char array to String
