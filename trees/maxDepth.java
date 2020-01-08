@@ -1,6 +1,6 @@
 // Leetcode 104 ez
 
-//ITERATIVE
+//ITERATIVE (preorder dfs)
 public int maxDepth(TreeNode root) {
       if(root == null)
           return 0;
