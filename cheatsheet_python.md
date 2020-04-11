@@ -2,8 +2,11 @@
 
 ## General
 - // is for floor
-- for i in range(start,end): COLON VERY IMPORTANT
 - return 'T'rue
+
+## Loops
+- for i in reversed(range(5))
+- for i in range(start,end): COLON VERY IMPORTANT
 
 ## Arrays
 - array [-1] returns the element of last position in array
