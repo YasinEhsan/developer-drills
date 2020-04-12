@@ -15,7 +15,8 @@
 - arr.sort() VS arr.sort(reverse=True)
 - list1.sort(key=sortSecond)  for tuple array sort (better in swift)
 
-
+## dict
+- 
 
 ```python
 // is for
