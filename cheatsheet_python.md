@@ -3,6 +3,7 @@
 ## General
 - // is for floor
 - return 'T'rue
+- multi line comment '''
 
 ## Loops
 - for i in reversed(range(5))
@@ -16,7 +17,7 @@
 - list1.sort(key=sortSecond)  for tuple array sort (better in swift)
 
 ## dict
-- 
+- TBD one line update or add
 
 ```python
 // is for
