@@ -7,7 +7,8 @@ Preparing for interviews?
 - [DailyCodingProblem. Qs sent to inbox](https://www.dailycodingproblem.com/)
 - [Google Tech Intv Guide](https://techdevguide.withgoogle.com)
 
-
+## Recognize, code, optimize
+- subarray question : sliding window 
 
 ## What to prep according to [HackeRank](https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback)
 
