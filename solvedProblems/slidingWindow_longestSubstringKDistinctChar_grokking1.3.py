@@ -1,25 +1,23 @@
-def fruits_into_baskets(fruits):
+def longest_substring_with_k_distinct(str, k):
   # TODO: Write your code here
-    startIndex, d, currLen, maxLen = 0, {}, 0, 0
+    '''
+    - have startIndex, currLen, maxLen, d
+    '''
+    startIndex, currLen, maxLen, d = 0,0,0,{}
 
-    for i in range(len(fruits)):
-        if fruits[i] not in d:
-            d[fruits[i]] = 0
-        d[fruits[i]] +=1
+    for endIndex in range(len(str)):
+        if str[endIndex] not in d:
+            d[str[endIndex]] = 0
+        d[str[endIndex]] += 1
         currLen+=1
 
-        while len(d) > 2:
-            d[fruits[startIndex]]-=1
-            currLen-=1
-            if d[fruits[startIndex]] == 0:
-                del d[fruits[startIndex]]
-            startIndex+=1
-        maxLen = max(currLen, maxLen)
+        while len(d) > k:
+            d[str[startIndex]]-=1
+            if d[str[startIndex]] == 0:
+                del d[str[startIndex]]
+            currLen -=1
+            startIndex +=1
 
-
+        maxLen = max(maxLen, currLen)
     return maxLen
-fruits_into_baskets(['A','B'])
-
-# Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.
-
-# https://www.educative.io/courses/grokking-the-coding-interview/Bn2KLlOR0lQ
+longest_substring_with_k_distinct("araaci", 2)
