@@ -1,4 +1,5 @@
 # may 11
+#
 def search_triplets(arr):
   arr.sort()
   triplets = []
@@ -22,5 +23,3 @@ def search_triplets(arr):
         leftPointer -=1
 
   return triplets
-
-  
