@@ -1,3 +1,24 @@
+
+# may 10
+def fruits_into_baskets(fruits):
+  # TODO: Write your code here
+
+  rightChar,currLen, d = 0,0, {}
+
+  for leftChar in range(len(fruits)):
+    if fruits[leftChar] not in d:
+      d[fruits[leftChar]] = 0
+    d[fruits[leftChar]] +=1
+    currLen+=1
+    while len(d) >2:
+      d[fruits[rightChar]] -=1
+      if d[fruits[rightChar]] == 0:
+        del d[fruits[rightChar]]
+      rightChar +=1
+      currLen -=1
+  return currLen
+
+  
 def fruits_into_baskets(fruits):
   # TODO: Write your code here
     startIndex, d, currLen, maxLen = 0, {}, 0, 0
