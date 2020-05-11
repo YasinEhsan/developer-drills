@@ -15,6 +15,10 @@
 - arr = [0 for x in range(10)] creates [0,0,0,0...]
 - arr.sort() VS arr.sort(reverse=True)
 - list1.sort(key=sortSecond)  for tuple array sort (better in swift)
+- pop() last element rm
+- pop(x) element at pos x rm
+- remove(x) first occurence of val x rm
+
 
 ## dict
 - TBD one line update or add
