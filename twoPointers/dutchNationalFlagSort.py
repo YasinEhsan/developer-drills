@@ -49,3 +49,9 @@ def dutch_flag_sort(arr):
       rightPointer+=1
 
   return arr
+
+
+PUSHNUM 2
+PASSPARAM
+CALLSTATMETHOD 19
+WRITEINT

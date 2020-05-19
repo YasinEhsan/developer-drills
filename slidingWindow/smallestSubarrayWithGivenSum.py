@@ -1,3 +1,21 @@
+# 5.18.20
+# forgot that sliding window is in while loop shinking bc last val might ewaql 3 first vals
+def smallest_subarray_with_given_sum(s, arr):
+  # TODO: Write your code here
+  windowStart, minLen, currSum = 0,100,0
+
+  for windowEnd in range(len(arr)):
+    currSum += arr[windowEnd]
+
+    while currSum >= s:
+      minLen = min(minLen, windowEnd - windowStart + 1)
+      currSum -= arr[windowStart]
+      windowStart+=1
+  return minLen
+
+
+
+
 def smallest_subarray_with_given_sum(s, arr):
   # TODO: Write your code here
     '''
