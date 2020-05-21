@@ -1,3 +1,20 @@
+
+# 5.20.20 swaped winstart with window end in first after loop
+def max_sub_array_of_size_k(k, arr):
+  # TODO: Write your code here
+  windowStart, currSum, maxSum = 0,0,0
+
+  for windowEnd in range(len(arr)):
+    currSum += arr[windowEnd]
+
+    if windowEnd - windowStart + 1 > k:
+      currSum -= arr[windowStart]
+      windowStart +=1
+    maxSum = max(maxSum, currSum)
+  return maxSum
+
+
+
 def max_sub_array_of_size_k(k, arr):
   # TODO: Write your code here
     maxSum, currSum, count = 0,0,0
