@@ -16,8 +16,10 @@
 - arr.sort() VS arr.sort(reverse=True)
 - list1.sort(key=sortSecond)  for tuple array sort (better in swift)
 - pop() last element rm
-- pop(x) element at pos x rm
+- pop(x) element at pos x rm and returns removed ele
 - remove(x) first occurence of val x rm
+- del arr[x] removes the item (i.e. hash charCount[s] = 0)
+
 
 
 ## dict
