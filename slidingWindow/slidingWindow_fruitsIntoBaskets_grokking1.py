@@ -1,4 +1,25 @@
 
+# may 23 20
+def fruits_into_baskets(fruits):
+  # TODO: Write your code here
+  windowStart, maxLen, d = 0,0,{}
+
+  for windowEnd in range(len(fruits)):
+    rightChar = fruits[windowEnd]
+    if rightChar not in d:
+      d[rightChar] = 0
+    d[rightChar] +=1
+
+    while len(d) > 2:
+      leftChar = fruits[windowStart]
+      d[leftChar] -=1
+      if d[leftChar] == 0:
+        del d[leftChar]
+      windowStart+=1
+    maxLen = max(maxLen, windowEnd - windowStart +1)
+  return maxLen
+
+
 # may 10
 def fruits_into_baskets(fruits):
   # TODO: Write your code here
@@ -18,7 +39,7 @@ def fruits_into_baskets(fruits):
       currLen -=1
   return currLen
 
-  
+
 def fruits_into_baskets(fruits):
   # TODO: Write your code here
     startIndex, d, currLen, maxLen = 0, {}, 0, 0
