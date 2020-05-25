@@ -9,7 +9,7 @@
 - for i in reversed(range(5))
 - for i in range(start,end): COLON VERY IMPORTANT
 
-## Arrays
+## Arrays / list
 - array [-1] returns the element of last position in array
 - arr = [0] * 5 creats array of size five with contents 0
 - arr = [0 for x in range(10)] creates [0,0,0,0...]
@@ -20,7 +20,9 @@
 - remove(x) first occurence of val x rm
 - del arr[x] removes the item (i.e. hash charCount[s] = 0)
 
-
+## Queues
+- a list or array can work as queue using Pop(0)
+- however, queue.popleft() is O(1) while list.pop(0) O(N)
 
 ## dict
 - TBD one line update or add
