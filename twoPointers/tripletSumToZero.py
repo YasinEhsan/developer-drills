@@ -1,4 +1,27 @@
-# may 11
+# may 24
+def search_triplets(arr):
+  arr.sort()
+  triplets = []
+
+  for i in range(len(arr)):
+    leftPtr = i+1
+    rightPtr = len(arr) -1
+
+    while leftPtr < rightPtr:
+      sum = arr[leftPtr] + arr[rightPtr]
+      if sum + arr[i] == 0:
+        target.append([arr[i], arr[leftPtr], arr[rightPtr]])
+        rightPtr -=1
+        leftPtr +=1
+      elif sum + arr[i] > 0:
+        rightPtr -=1
+      else
+        leftPtr +=1
+  return triplets
+
+
+
+# may 11 good use of enum
 #
 def search_triplets(arr):
   arr.sort()
