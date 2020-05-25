@@ -19,12 +19,13 @@
 - pop(x) element at pos x rm and returns removed ele
 - remove(x) first occurence of val x rm
 - del arr[x] removes the item (i.e. hash charCount[s] = 0)
+- list.reverse() modifies og list...list[::-1] creates new copy reversed
 
 ## Deque
 - a list or array can work as queue using Pop(0)
 - however, queue.popleft() is O(1) while list.pop(0) O(N)
 - popleft() leftmost element...pop() rightmost ele as in Stack
-- 
+- q.appendLeft(item) adds to first position like list.insert(0, item)
 
 ## dict
 - TBD one line update or add
