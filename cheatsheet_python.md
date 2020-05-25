@@ -20,9 +20,11 @@
 - remove(x) first occurence of val x rm
 - del arr[x] removes the item (i.e. hash charCount[s] = 0)
 
-## Queues
+## Deque
 - a list or array can work as queue using Pop(0)
 - however, queue.popleft() is O(1) while list.pop(0) O(N)
+- popleft() leftmost element...pop() rightmost ele as in Stack
+- 
 
 ## dict
 - TBD one line update or add
