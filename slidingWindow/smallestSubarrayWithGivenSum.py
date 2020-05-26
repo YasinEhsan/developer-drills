@@ -1,3 +1,31 @@
+# 5 25 20
+# added import
+import math
+
+def smallest_subarray_with_given_sum(s, arr):
+  windowStart, currSum, minLen = 0,0,math.inf
+
+  for windowEnd in range(len(arr)):
+    currSum += arr[windowEnd]
+
+
+    while currSum >= s:
+      minLen = min(minLen, windowEnd - windowStart +1)
+      currSum -= arr[windowStart]
+      windowStart +=1
+
+  # check edge case
+  if math.inf == currSum:
+    return 0
+
+
+  return minLen
+
+  # time O(N) space O(1)
+#  3 tries 
+
+
+
 # 5.18.20
 # forgot that sliding window is in while loop shinking bc last val might ewaql 3 first vals
 def smallest_subarray_with_given_sum(s, arr):
