@@ -1,29 +1,31 @@
 
 # may 26 20
-def traverse(root):
-  result = deque()
+from collections import deque
+def find_level_averages(root):
+  result = []
   if root is None:
     return result
+
   queue = deque()
   queue.append(root)
 
   while queue:
     levelSize = len(queue)
-    tempArr = []
+    currSum = 0
 
     for _ in range(levelSize):
       node = queue.popleft()
-      tempArr.append(node.val)
+      currSum += node.val
 
       if node.left:
         queue.append(node.left)
       if node.right:
         queue.append(node.right)
 
-    result.appendleft(tempArr)
+    result.append(currSum/levelSize)
+
   return result
-# time O(n) space o(n)
-# 3 tries, curr.val and append left syntax
+# time n space n
 
 
 # may 25

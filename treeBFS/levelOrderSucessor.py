@@ -1,4 +1,32 @@
 
+# may 26
+def find_successor(root, key):
+  # TODO: Write your code here
+
+  if root is None:
+    return None
+
+  queue = deque()
+  queue.append(root)
+  isFound = False
+
+  while queue:
+    node = queue.popleft()
+
+    if isFound:
+      return node
+    if node.val == key:
+      isFound = True
+
+    if node.left:
+      queue.append(node.left)
+
+    if node.right:
+      queue.append(node.right)
+
+
+  return None
+
 
 # may 25
 def find_successor(root, key):
