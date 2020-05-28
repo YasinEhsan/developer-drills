@@ -1,3 +1,34 @@
+# may 27 20
+def length_of_longest_substring(str, k):
+  """
+  - NOTES + Plan
+  - allowed to replace 1,2,3, K charcters
+  - we can use sling window approcah to find largest contiguous substr
+  - to extend that we need to chk when the length of subtr increres by K
+  - if k = 0 max is 1 is k is 1 max is 2
+
+  """
+
+  windowIndex, maxCount, d = 0,0,{}
+  maxLen = 0
+
+  for endIndex in range(len(str)):
+    leftChar = str[endIndex]
+    if leftChar not in d:
+      d[leftChar] = 0
+    d[leftChar] +=1
+    maxCount = max(maxCount, d[leftChar])
+
+    if endIndex - windowIndex + 1 - maxCount > k:
+      rightChr = str[windowIndex]
+      d[rightChr]-=1
+      windowIndex +=1
+
+    maxLen = max(maxLen,  endIndex - windowIndex + 1)
+
+
+
+  return maxLen
 
 
 # 5.19  WORKS
