@@ -1,3 +1,29 @@
+# may 28 20
+def search_triplets(arr):
+  triplets = []
+  # TODO: Write your code here
+  # loop once each loop fidn all matching sum and append to array if true
+
+  arr.sort()
+
+  for i in range(len(arr)):
+    targetNum = -arr[i]
+    left = i+1
+    right = len(arr) -1
+
+    while left < right:
+      currSum = arr[left] + arr[right]
+      if currSum == targetNum:
+        triplets.append([-targetNum, arr[left], arr[right]])
+        left+=1
+        right-=1
+      elif currSum < targetNum:
+        left+=1
+      else:
+        right-=1
+  return triplets
+
+
 # may 24
 def search_triplets(arr):
   arr.sort()
