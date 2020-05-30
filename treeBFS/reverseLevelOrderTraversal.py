@@ -1,3 +1,34 @@
+# may 29 20
+def traverse(root):
+  result = deque()
+
+  if root is None:
+    return result
+  # TODO: Write your code here
+
+  queue = deque()
+  queue.append(root)
+
+  while queue:
+    levelSize = len(queue)
+    tempArr = []
+
+    for _ in range(levelSize):
+      currNode = queue.popleft()
+
+      tempArr.append(currNode.val)
+
+      if currNode.left:
+        queue.append(currNode.left)
+      if currNode.right:
+        queue.append(currNode.right)
+
+    result.appendleft(tempArr)
+
+  return result
+  # n time n space
+
+
 # may 25 20
 def traverse(root):
   queue = deque()

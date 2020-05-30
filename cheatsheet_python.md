@@ -31,5 +31,11 @@
 - TBD one line update or add
 
 ```python
-// is for
+# classic space and time trade off examples
+
+# if was result.insert(0, tempArr) algo complexity wud be higher bc opration O(n) cost
+  result.append(tempArr)
+
+  # I can do return [::-1] O(N) space cost new lsit created
+  result.reverse()
 ```
