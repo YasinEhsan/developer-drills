@@ -1,3 +1,26 @@
+# may 29 20
+from collections import deque
+def find_subarrays(arr, target):
+  result = []
+  windowStart = 0
+  currProd = 1
+
+  for windowEnd in range(len(arr)):
+    currProd *= arr[windowEnd]
+
+    while currProd >= target:
+      currProd /= arr[windowStart]
+      windowStart +=1
+
+    # subarrays
+    queue = deque()
+    for i in range(windowEnd, windowStart -1, -1):
+      queue.appendleft(arr[i])
+      result.append(list(queue))
+  return result
+
+
+
 # may 24...use sling window approach and creative about subarrays
 # sol dnot work
 def find_subarrays(arr, target):
