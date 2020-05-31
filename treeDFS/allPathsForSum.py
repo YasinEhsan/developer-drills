@@ -1,3 +1,29 @@
+# may 20 30
+def find_paths(root, sum):
+  allPaths = []
+  # call helper function
+  single_path(root, sum, [], allPaths)
+  return allPaths
+
+def single_path(currNode, sum, currPath, allPaths):
+
+  if currNode is None:
+    return
+
+  # add current val to this path
+  currPath.append(currNode.val)
+
+  if currNode.val == sum and currNode.left is None and currNode.right is None:
+    allPaths.append(list(currPath))
+  else:
+    single_path(currNode.left, sum - currNode.val, currPath, allPaths)
+    single_path(currNode.right, sum - currNode.val, currPath, allPaths)
+
+  del currPath[-1]
+
+
+
+
 # may 29 20
 def find_paths(root, sum):
   allPaths = []
