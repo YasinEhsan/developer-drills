@@ -1,31 +1,35 @@
 
-# may 30 20
-def longest_substring_with_k_distinct(str, k):
-  # TODO: Write your code here
-  # init start vars
+# may 31 20
+def length_of_longest_substring(str, k):
+  # init vars
   windowStart = 0
   maxLen = 0
-  charFreq = {}
+  allowence = 0
+  # our char dict
+  d = {}
 
+  # window is range [windowStart, windowEnd]
   for windowEnd in range(len(str)):
-    # get latest var and add to dict
+    # example 'e' in the
     rightChar = str[windowEnd]
-    if rightChar not in charFreq:
-      charFreq[rightChar] = 0
-    charFreq[rightChar] +=1
+    if rightChar not in d:
+      d[rightChar] = 0
+    d[rightChar] +=1
 
-    # shrink window if substring has more than k unique chars
-    while len(charFreq) > k:
-      leftChar = str[windowStart]
-      charFreq[leftChar] -=1
-      if charFreq[leftChar] == 0:
-        del charFreq[leftChar]
+    # tracks the most freq letter count at each window
+    allowence = max(allowence, d[rightChar])
+
+    if windowEnd - windowStart + 1 - allowence > k:
+      oldestChar = str[windowStart]
+      d[oldestChar] -=1
+      if d[oldestChar] == 0:
+        del d[oldestChar]
       windowStart +=1
 
-    # save max len
     maxLen = max(maxLen, windowEnd - windowStart +1)
-      
+
   return maxLen
+
 
 
 # may 27 20
