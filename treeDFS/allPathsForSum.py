@@ -1,3 +1,32 @@
+# june 11
+# pblm breakdown: find all ways of finding the root to leaf sum eaqul to S
+# we have to return an array of such paths
+# worked forst time
+def find_paths(root, sum):
+  allPaths = []
+  # TODO: Write your code here
+
+  find_specific_path(root, allPaths, [], sum)
+  return allPaths
+
+def find_specific_path(currNode, allPaths, currPath, sum):
+
+  if currNode is None:
+    return
+
+  currPath.append(currNode.val)
+
+  if currNode.right is None and currNode.left is None and currNode.val == sum:
+    allPaths.append(list(currPath))
+    # continue searching
+  else:
+    find_specific_path(currNode.right, allPaths, currPath, sum - currNode.val)
+    find_specific_path(currNode.left, allPaths, currPath, sum - currNode.val)
+
+  # called only once appended to currPath or completed else statement
+  del currPath[-1]
+
+
 # may 20 30
 def find_paths(root, sum):
   allPaths = []
