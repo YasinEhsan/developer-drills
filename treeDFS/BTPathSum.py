@@ -1,3 +1,16 @@
+# June 11
+def has_path(root, sum):
+  # TODO: Write your code here
+  if root is None:
+    return False
+
+  if root.right is None and root.left is None and root.val == sum:
+    return True
+
+
+  return has_path(root.right, sum - root.val) or has_path(root.left, sum - root.val)
+
+
 # june 10
 def has_path(currNode, sum):
   # TODO: Write your code here
@@ -9,7 +22,7 @@ def has_path(currNode, sum):
 
   return has_path(currNode.right, sum - currNode.val) or has_path(currNode.left, sum - currNode.val)
 
-  
+
 
 # may 29 20
 def has_path(root, sum):
